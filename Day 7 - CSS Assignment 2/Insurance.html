@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hartford Insurance</title>
+    <!-- <link rel="shortcut icon" href="./Imgs/image.png" type="image/x-icon"> -->
+    <link rel="stylesheet" href="Insurance.css">
+</head>
+<body>
+    <nav class="nbar">
+        <img src="./Imgs/HartfordLogo.png" alt="" class="logo">
+        <ul class="nul">
+            <li><a href="https://www.thehartford.com" target="_blank" class="nlink">Home</a></li>
+            <li><a href="https://www.thehartford.com/claims" target="_blank" class="nlink">Plans</a></li>
+            <li><a href="https://www.thehartford.com/about-us/" target="_blank" class="nlink">About Us</a></li>
+            <li><a href="https://www.thehartford.com/contact-the-hartford" target="_blank" class="nlink">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero-content">
+    <h1>Protecting Your Life's Future</h1>
+    <p>Secure your family's tomorrow with comprehensive insurance plans tailored just for you. Trust Harord India Insurance for reliable protection.</p>
+    <a href="#plans" class="hero-btn">View Plans</a>
+    </div>
+
+
+    <section id="plans" class="plans-section">
+    <h2 class="section-title">Our Insurance Plans</h2>
+    <div class="plans-container">
+        <div class="plan-card">
+            <img src="./Imgs/life-insurance.webp" alt="Life Insurance" class="plan-img">
+            <h3>Life Insurance</h3>
+            <p>Financial protection for your family.</p>
+            <a href="#" class="plan-btn">Learn More</a>
+        </div>
+        <div class="plan-card">
+            <img src="./Imgs/health-insurance.webp" alt="Health Insurance" class="plan-img">
+            <h3>Health Insurance</h3>
+            <p>Medical coverage when you needit most.</p>
+            <a href="#" class="plan-btn">Learn More</a>
+        </div>
+        <div class="plan-card">
+            <img src="./Imgs/vehicle-insurance.webp" alt="Vehicle Insurance" class="plan-img">
+            <h3>Vehicle Insurance</h3>
+            <p>Protection for car and <br>bike.</p>
+            <a href="#" class="plan-btn">Learn More</a>
+        </div>
+        <div class="plan-card">
+            <img src="./Imgs/home-insurance.webp" alt="Home Insurance" class="plan-img">
+            <h3>Home Insurance</h3>
+            <p>Secure your property and peace of mind.</p>
+            <a href="#" class="plan-btn">Learn More</a>
+        </div>
+    </div>
+</section>
+
+<section class="features-section">
+    <a name="choose" href=""></a>
+    <h2 class="section-title">Why Choose Us</h2>
+    <div class="features-container">
+        <div class="feature-box">
+            <div class="feature-icon">⏰</div>
+            <h3>25 Years Experience</h3>
+            <p>Decades of trusted service in insurance.</p>
+        </div>
+        <div class="feature-box">
+            <div class="feature-icon">👥</div>
+            <h3>Trusted by 1M Customers</h3>
+            <p>Join millions who rely on our protection.</p>
+        </div>
+        <div class="feature-box">
+            <div class="feature-icon">📞</div>
+            <h3>24/7 Claim Support</h3>
+            <p>Round-the-clock assistance for claims.</p>
+        </div>
+    </div>
+</section>
+
+<section class="about-section">
+    <a name="about" href=""></a>
+    <div class="about-container">
+        <div class="about-image">
+            <img src="./Imgs/Hartford1.png" alt="Hartford India Insurance Team" class="about-img">
+        </div>
+        <div class="about-text">
+            <h2 class="section-title">About Hartford India Insurance</h2>
+            <p>Hartford India Insurance has been serving customers with trust and transparency for over 25 years. Our commitment to reliable protection and customer-first service sets us apart in the industry.</p>
+            <p>We offer comprehensive plans tailored to your needs, backed by a nationwide network and expert advisors.</p>
+            <a href="#contact" class="cta-btn">Get in Touch</a>
+        </div>
+    </div>
+</section>
+
+<section class="stats-section">
+    <div class="stats-container">
+        <div class="stat-box">
+            <div class="stat-number">1M</div>
+            <div class="stat-label">Customers</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-number">500</div>
+            <div class="stat-label">Branches</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-number">98%</div>
+            <div class="stat-label">Claim Settlement</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-number">25</div>
+            <div class="stat-label">Years Experience</div>
+        </div>
+    </div>
+</section>
+
+    <section class="contact-section">
+        <a href="" name="contact"></a>
+    <div class="contact-container">
+        <h2 class="section-title">Get a Free Quote</h2>
+        <p class="section-subtitle">Fill out the form below and our team will contact you shortly.</p>
+        <form class="contact-form" novalidate>
+            <label for="full-name">Full Name</label>
+            <div class="form-group">
+                <input type="text" id="full-name" name="fullName" placeholder="Full Name" required>
+            </div>
+            <label for="email">Email</label>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+            </div>
+            <label for="phone">Phone Number</label>
+            <div class="form-group">
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+            </div>
+            <label for="insurance-type">Insurance Type</label>
+            <div class="form-group">
+                <select id="insurance-type" name="insuranceType" required>
+                    <option value="" disabled selected>Select Insurance Type</option>
+                    <option value="life">Life Insurance</option>
+                    <option value="health">Health Insurance</option>
+                    <option value="vehicle">Vehicle Insurance</option>
+                    <option value="home">Home Insurance</option>
+                </select>
+            </div>
+            <label for="message">Message</label>
+            <div class="form-group">
+                <textarea id="message" name="message" placeholder="Tell us more about your needs" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit Enquiry</button>
+        </form>
+    </div>
+</section>
+
+
+
+
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <img src="./Imgs/HartfordLogo.png" alt="Harord India Insurance" class="footer-logo">
+                <p>Trusted protection for over 25 years. Your family's security is our priority.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#plans">Insurance Plans</a></li>
+                    <li><a href="#choose">Why Choose Us</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Get in Touch</h4>
+                <p>📞 +91 12345 67890</p>
+                <p>✉️ info@hartfordinsurance.in</p>
+                <p>📍 Hyderabad, Telangana, India</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Hartford India Insurance. All rights reserved.</p>
+            <p class="disclaimer">Insurance plans subject to terms & conditions. IRDAI regulated. Consult policy documents for details.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
