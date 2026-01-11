@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Enquiry & Feedback</title>
+    <link rel="stylesheet" href="Insurance.css">
+</head>
+<body>
+    <img src="../icons/HartfordLogo.png" alt="" class="logo">
+    <div class="container">
+        <div class="form-card">
+            <div class="header">
+                <h1>Insurance Enquiry & Feedback</h1>
+                <p>Submit your policy-related queries and feedback.</p>
+            </div>
+            <form id="enquiryForm">
+                <div class="field-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" required>
+                    <span id="nameError" class="error"></span>
+                </div>
+                
+                <div class="field-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                    <span id="emailError" class="error"></span>
+                </div>
+                
+                <div class="field-group">
+                    <label for="mobile">Mobile Number</label>
+                    <input type="tel" id="mobile" required>
+                    <span id="mobileError" class="error"></span>
+                </div>
+                
+                <div class="field-group">
+                    <label for="requestType">Request Type</label>
+                    <select id="requestType" required>
+                        <option value="" selected disabled>Select Request Type</option>
+                        <option value="Policy Enquiry">Policy Enquiry</option>
+                        <option value="Claim Related">Claim Related</option>
+                        <option value="Feedback">Feedback</option>
+                    </select>
+                    <span id="requestError" class="error"></span>
+                </div>
+                
+                <div class="field-group">
+                    <label for="policyType">Policy Type</label>
+                    <select id="policyType" required>
+                        <option value="" selected disabled>Select Policy Type</option>
+                        <option value="Health Insurance">Health Insurance</option>
+                        <option value="Life Insurance">Life Insurance</option>
+                        <option value="Vehicle Insurance">Vehicle Insurance</option>
+                        <option value="Home Insurance">Home Insurance</option>
+                    </select>
+                    <span id="policyError" class="error"></span>
+                </div>
+                
+                <div class="field-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" required></textarea>
+                    <span id="messageError" class="error"></span>
+                </div>
+                
+                <div class="field-group">
+                    <label>Experience Rating</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="rating" value="1" required> 1</label>
+                        <label><input type="radio" name="rating" value="2" required> 2</label>
+                        <label><input type="radio" name="rating" value="3" required> 3</label>
+                        <label><input type="radio" name="rating" value="4" required> 4</label>
+                        <label><input type="radio" name="rating" value="5" required> 5</label>
+                    </div>
+                    <span id="ratingError" class="error"></span>
+                </div>
+                
+                <button type="submit">Submit Enquiry</button>
+            </form>
+            <div id="successMsg" class="success hidden">
+                Thank you! Your enquiry has been successfully submitted.
+            </div>
+        </div>
+    </div>
+    <script src="Insurance.js"></script>
+</body>
+</html>
