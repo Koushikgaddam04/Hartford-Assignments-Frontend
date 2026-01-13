@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./tictactoe.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Tic Tac Toe</h1>
+    </div>
+    <div class="card">
+        <p>Player <span></span> turn</p>
+    <table id="tictactoe">
+        <tbody>
+            <tr>
+                <td id="0" onclick="display(0,0)"></td>
+                <td id="1" onclick="display(0,1)"></td>
+                <td id="2" onclick="display(0,2)"></td>
+            </tr>
+            <tr>
+                <td id="3" onclick="display(1,0)"></td>
+                <td id="4" onclick="display(1,1)"></td>
+                <td id="5" onclick="display(1,2)"></td>
+            </tr>
+            <tr>
+                <td id="6" onclick="display(2,0)"></td>
+                <td id="7" onclick="display(2,1)"></td>
+                <td id="8" onclick="display(2,2)"></td>
+            </tr>
+        </tbody>
+    </table>
+    <button onclick="reset()" id="reset">Reset</button>
+    </div>
+    <script src="./tictactoe.js"></script>
+</body>
+</html>
