@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSONPlaceholder CRUD - Express.js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Express.js CRUD Operations</h1>
+        
+        <!-- Create Form -->
+        <div class="form-section">
+            <h2>Create New Post</h2>
+            <form id="createForm">
+                <input type="text" id="title" placeholder="Post Title" required>
+                <textarea id="body" placeholder="Post Content" required></textarea>
+                <input type="number" id="userId" value="1" min="1" max="10">
+                <button type="submit">➕ Create Post</button>
+            </form>
+        </div>
+
+        <!-- Posts List -->
+        <div class="posts-section">
+            <h2>📝 Posts (First 10)</h2>
+            <div id="postsList">Loading posts...</div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = '/api';
+        
+        // Load posts on page load
+        document.addEventListener('DOMContentLoaded', loadPosts);
+
+        // CREATE - POST request
+        document.getElementById('createForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = {
+                title: document.getElementById('title').value,
+                body: document.getElementById('body').value,
+                userId: parseInt(document.getElementById('userId').value)
+            };
+
+            try {
+                await fetch(`${API_BASE}/posts`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(formData)
+                });
+                loadPosts();
+                document.getElementById('createForm').reset();
+                document.getElementById('userId').value = 1;
+            } catch (error) {
+                alert('Error creating post');
+            }
+        });
+
+        // READ - GET all posts
+        async function loadPosts() {
+            try {
+                const response = await fetch(`${API_BASE}/posts`);
+                const posts = await response.json();
+                displayPosts(posts);
+            } catch (error) {
+                document.getElementById('postsList').innerHTML = 'Error loading posts';
+            }
+        }
+
+        // Display posts
+        function displayPosts(posts) {
+            const postsList = document.getElementById('postsList');
+            postsList.innerHTML = posts.map(post => `
+                <div class="post-card">
+                    <h3>${post.title}</h3>
+                    <p>${post.body.substring(0, 100)}...</p>
+                    <small>User: ${post.userId} | ID: ${post.id}</small>
+                    <div class="actions">
+                        <button onclick="editPost(${post.id}, '${post.title.replace(/'/g, "\\'")}', '${post.body.replace(/'/g, "\\'")}')" class="edit-btn">
+                            ✏️ Edit
+                        </button>
+                        <button onclick="deletePost(${post.id})" class="delete-btn">
+                            🗑️ Delete
+                        </button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // UPDATE - PUT request
+        async function editPost(id, title, body) {
+            const newTitle = prompt('Edit title:', title);
+            const newBody = prompt('Edit body:', body);
+            if (newTitle && newBody) {
+                try {
+                    await fetch(`${API_BASE}/posts/${id}`, {
+                        method: 'PUT',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ id, title: newTitle, body: newBody, userId: 1 })
+                    });
+                    loadPosts();
+                } catch (error) {
+                    alert('Error updating post');
+                }
+            }
+        }
+
+        // DELETE - DELETE request
+        async function deletePost(id) {
+            if (confirm(`Delete post ${id}?`)) {
+                try {
+                    await fetch(`${API_BASE}/posts/${id}`, { method: 'DELETE' });
+                    loadPosts();
+                } catch (error) {
+                    alert('Error deleting post');
+                }
+            }
+        }
+    </script>
+</body>
+</html>

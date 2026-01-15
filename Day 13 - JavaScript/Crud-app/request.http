@@ -1,0 +1,16 @@
+GET http://localhost:3000/display
+
+###
+
+POST http://localhost:3000/newpost
+content-type: application/json
+
+{
+    userId: 7,
+    title:" Hello title",
+    body: "new body"
+}
+###
+
+DELETE http://localhost:3000/delete/6
+
