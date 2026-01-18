@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hartford BANK - Operations Dashboard</title>
+    <link rel="stylesheet" href="bank.css">
+</head>
+<body>
+    <header>
+        <h1>The Hartford <span>BANK</span></h1>
+    </header>
+
+    <div class="main-wrapper">
+        <aside class="sidebar">
+            <div class="controls">
+                <button onclick="insertEnable()">+ New Account</button>
+                <button onclick="updateEnable()">⇄ Transaction</button>
+                <button onclick="deleteEnable()">✕ Close Account</button>
+                <button onclick="filterEnable()">🔍 Search By Name</button>
+            </div>
+
+            <div id="insForm" class="form-container"></div>
+            <div id="updForm" class="form-container"></div>
+            <div id="delForm" class="form-container"></div>
+            <div id="filForm" class="form-container"></div>
+
+            <div class="sort-section">
+                <button onclick="handleSort()" style="width:100%; margin-top:20px; background:#6366f1;">
+                    ↓ Sort High to Low
+                </button>
+            </div>
+        </aside>
+
+        <section class="display-area">
+            <div id="user-list"></div>
+            
+            <div id="total-balance-display" class="total-footer"></div>
+        </section>
+    </div>
+
+    <script src="bank.js"></script>
+</body>
+</html>
