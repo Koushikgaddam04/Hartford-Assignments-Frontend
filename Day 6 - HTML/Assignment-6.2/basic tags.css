@@ -1,0 +1,50 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: black;
+    color: #7c802f;
+    text-align: center;
+}
+button{
+    padding: 10px 20px;
+    background-color: rgb(233, 38, 38);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table{
+    padding: 2px;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+table,th,td{
+    border: 2px solid;
+    border-collapse: collapse; /*This works when multiple elements are changed within single parenthesis. Eg:table,th,td{}*/
+}
+thead{
+    background-color: rgb(43, 42, 42);
+    color: rgb(185, 185, 102);
+}
+th{
+    text-decoration: overline;
+}
+td:hover{
+    background-color: rgb(43, 42, 42);
+    color: white;
+}
+
+h3{
+    color: rgb(233, 38, 38);
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px grey;
+    font-style: italic;
+}

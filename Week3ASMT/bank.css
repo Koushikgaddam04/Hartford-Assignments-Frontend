@@ -1,0 +1,66 @@
+:root {
+    --primary: #00d2ff;
+    --secondary: #3a7bd5;
+    --bg-dark: #0f172a;
+    --card-bg: rgba(30, 41, 59, 0.7);
+    --text: #f8fafc;
+    --accent: #10b981;
+    --danger: #ef4444;
+}
+
+body {
+    background: radial-gradient(circle at top right, #1e293b, var(--bg-dark));
+    color: var(--text);
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+header {
+    padding: 20px 40px;
+    background: rgba(15, 23, 42, 0.9);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+header span { color: var(--primary); font-weight: 800; }
+
+.main-wrapper { display: flex; gap: 30px; padding: 30px; align-items: flex-start; }
+.sidebar { flex: 0 0 350px; position: sticky; top: 30px; }
+.display-area { flex: 1; }
+
+.controls { display: flex; flex-direction: column; gap: 12px; }
+
+button {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    border: none; color: white; padding: 14px; border-radius: 8px;
+    font-weight: 600; cursor: pointer; transition: 0.3s;
+}
+
+button:hover { box-shadow: 0 0 20px rgba(0, 210, 255, 0.4); transform: translateY(-2px); }
+
+.form-container:not(:empty) {
+    margin-top: 20px; background: var(--card-bg); padding: 20px;
+    border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex; flex-direction: column; gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, select { background: #0f172a; border: 1px solid #334155; padding: 10px; color: white; border-radius: 5px; }
+
+#user-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;}
+
+.user-card {
+    background: var(--card-bg); border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px; padding: 20px; transition: 0.3s; backdrop-filter: blur(5px);
+}
+
+.user-card h3 { color: var(--primary); margin: 0 0 10px 0; }
+.user-card p { font-size: 0.9rem; color: #94a3b8; margin: 5px 0; }
+.balance-text { font-size: 1.2rem; color: var(--accent); font-weight: bold; margin-top: 15px; }
+
+/* Task 11: Total Balance Styling */
+.total-footer {
+    margin-top: 30px; padding: 20px; background: var(--card-bg);
+    border-top: 2px solid var(--primary); border-radius: 12px;
+    text-align: right; font-size: 1.5rem; font-weight: 800; color: var(--primary);
+}

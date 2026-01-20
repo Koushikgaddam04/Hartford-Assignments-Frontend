@@ -1,0 +1,31 @@
+use insuranceDB
+
+db.createCollection('Policies')
+
+
+Insert commands:
+InsuranceDB> db.policies.insertMany([
+{ policy_id: 123, name: "Standard Liability Policy", customer_name: "John Doe", annual_income: 1000000, coverage_amouncoverage_amount: 5000000, premium: 500, extensions: { basic: 120, advanced: 150 }, status: "active" }, { policy_id: 124, name: "Extended Coverage Policy", customer_name: "Jane Smith", annual_income: 1500000, coverage_amount: 7000000, premium: 750, extensions: { basic: 150, advanced: 170 }, status: "pending" },
+...   { policy_id: 125, name: "Health Plus Policy", customer_name: "Alice Johnson", annual_income: 931237, coverage_amount: 3539180, premium: 882.19, extensextensions: { basic: 160.11, advanced: 186.19 }, status: "expired" },
+...   { policy_id: 126, name: "Standard Liability Policy", customer_name: "Bob Wilson", annual_income: 2143313, coverage_amount: 4277930, premium: 1029.76, extensions: { basic: 188.74, advanced: 246.01 }, status: "active" },
+...   { policy_id: 127, name: "Homeowners Basic Policy", customer_name: "Carol Davis", annual_income: 2300478, coverage_amount: 9304780, premium: 650.55, exextensions: { basic: 184.14, advanced: 126.79 }, status: "expired" },
+...   { policy_id: 128, name: "Health Plus Policy", customer_name: "David Brown", annual_income: 986014, coverage_amount: 7501939, premium: 461.55, extensioextensions: { basic: 181.7, advanced: 246.98 }, status: "expired" },
+...   { policy_id: 129, name: "Health Plus Policy", customer_name: "Eve Garcia", annual_income: 1592434, coverage_amount: 5281008, premium: 909.32, extensioextensions: { basic: 126.93, advanced: 142.61 }, status: "active" },
+...   { policy_id: 130, name: "Auto Comprehensive Policy", customer_name: "Frank Miller", annual_income: 1937275, coverage_amount: 6318465, premium: 383.18, extensions: { basic: 199.33, advanced: 213.74 }, status: "expired" },
+...   { policy_id: 131, name: "Extended Coverage Policy", customer_name: "Grace Lee", annual_income: 1410059, coverage_amount: 9722653, premium: 306.8, exteextensions: { basic: 192.05, advanced: 202.48 }, status: "active" },
+...   { policy_id: 132, name: "Health Plus Policy", customer_name: "Henry Taylor", annual_income: 1452452, coverage_amount: 9166664, premium: 587.93, extensextensions: { basic: 197.08, advanced: 237.83 }, status: "active" },
+...   { policy_id: 133, name: "Standard Liability Policy", customer_name: "Ivy Martinez", annual_income: 1716417, coverage_amount: 9155040, premium: 506.84, extensions: { basic: 125.09, advanced: 151.8 }, status: "expired" },
+...   { policy_id: 134, name: "Standard Liability Policy", customer_name: "Jack Anderson", annual_income: 1910485, coverage_amount: 7156143, premium: 380.05, extensions: { basic: 122.83, advanced: 192.93 }, status: "expired" }
+... ])
+
+
+
+db.policies.find({})
+db.policies.find({policy_id:134})
+
+db.policies.update({policy_id: 123}, {$set:{customer_name:'Koushik Gaddam'}})
+
+db.policies.deleteMany({policy_id:{$gte:133}})
+
+db.policies.find({}, {_id:0, policy_id:1, name:1, customer_name:1, annual_income:1, coverage_amount:1})
+

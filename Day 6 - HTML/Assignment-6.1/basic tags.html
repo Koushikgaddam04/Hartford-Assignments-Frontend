@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basic Tags</title>
+    </style>
+</head>
+<body>
+    <a href="" name="hi"></a>
+    <h1>HTML Basic Tags</h1>
+    <p>This is a para- Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem inventore, provident tempora sed eligendi laborum accusantium dolorem, placeat debitis ratione enim nisi voluptatibus harum! Sint quod facilis quisquam quos fugit.</p>
+    <h3>Use break tag</h3>
+    Lorem, ipsum dolor sit amet consectetur<br>adipisicing elit. Sint tempore illum cum eum repellat qui minus optio non odit dolorum?
+    <br>
+    Italic:
+    <i>Lorem ipsum dolor sit amet.</i>
+    <br>
+    Emphasis:
+    <em>Lorem ipsum dolor sit amet.</em>
+    <br>
+    Bold:
+    <b>Lorem ipsum dolor sit amet.</b>
+    <br>
+    Strong:
+    <strong>Lorem ipsum dolor sit amet.</strong>
+    
+    <h3>Horizontal Line</h3>
+    <hr>
+
+    <h3>List elements (Ordered and Unordered List)</h3>
+    <ol type="a">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3
+            <ul>
+                <li>Subitem 1</li>
+                <li>Subitem 2</li>
+            </ul>
+        </li>
+        <li>Item 4</li>
+    </ol>
+    <h3>definition list &#9996</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hyper Text Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JS</dt>
+        <dd>JavaScript</dd>
+    </dl>
+    <h3>Links</h3>
+    <!-- Open the link in a new tab -->
+     <!-- Use inline CSS -->
+    <a href="../icons/deadpool-baby.png" target="_blank" style="color:rgb(108, 195, 206)">Visit image</a>
+    <h3>Image link</h3>
+    <!-- <img src="./icons/avengers-symbol.png" alt=""> -->
+    
+    <img src="../icons/avengers-symbol.png" alt="Description" usemap="#myMap">
+    
+    <map name="myMap">
+        <!-- for rectangular area: x1,y1,x2,y2 (top-left to bottom-right) -->
+        <!-- <area shape="rect" coords="208,157,182,202" alt="Ractangle" href="https://www.google.com"> -->
+        
+        <!-- for circular area: x,y,radius (center x,y from top-left, radius) -->
+        <area shape="circle" coords="331,129,174" alt="Circle" href="https://www.google.com">
+
+    </map>
+
+    <h3>Video Display</h3>
+    <video width="320" height="240" controls>
+        <source src="../icons/sample-10s.mp4" type="video/mp4">
+    </video>
+    <h3>Table creation of employee table</h3>
+    <!-- table creation -->
+    <table border="1">
+        <thead class="table_head">
+        <tr>
+            <th>Emp ID</th>
+            <th>Emp Name</th>
+            <th>Emp Age</th>
+            <th>Emp City</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>101</td>
+            <td>John Doe</td>
+            <td>28</td>
+            <td>New York</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Jane Smith</td>
+            <td>34</td>
+            <td>Los Angeles</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Mike Johnson</td>
+            <td>45</td>
+            <td>Chicago</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h3>Button to open new page</h3>
+    <a href="https://www.google.com/" target="_blank"><button>New page</button></a>>
+    <br>
+    
+    <form action="">
+        <h3>Form Example</h3>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+        
+    </form>
+    
+    <h3>Go to top</h3>
+    <a href="#hi">go to top of the page</a>
+</body>
+</body>
+</html>

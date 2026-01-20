@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion E-Store - Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: { extend: { colors: { primary: '#667eea' } } }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-900 antialiased">
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-200 shadow-sm">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="#" class="text-2xl font-bold text-primary">FashionHub</a>
+                <ul class="hidden md:flex items-center space-x-8">
+                    <li><a href="#home" class="hover:text-primary transition">Home</a></li>
+                    <li><a href="#products" class="hover:text-primary transition">Shop</a></li>
+                    <li><a href="#about" class="hover:text-primary transition">About</a></li>
+                    <li><a href="#contact" class="hover:text-primary transition">Contact</a></li>
+                </ul>
+                <div class="flex items-center space-x-4">
+                    <button id="cart-toggle" class="relative p-2 hover:bg-gray-100 rounded-full transition">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-1.5 4.5M7 13l-1.5 4.5M16.5 13l1.5 4.5M16.5 13l2-3M7 13l2-3M7 13l2 3"></path></svg>
+                        <span class="absolute -top-1 -right-1 bg-primary text-white text-xs rounded-full h-5 w-5 flex items-center justify-center text-sm">3</span>
+                    </button>
+                    <button class="md:hidden p-2 hover:bg-gray-100 rounded-full"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="min-h-screen bg-gradient-to-br from-primary to-indigo-600 flex items-center text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6 drop-shadow-2xl">Shop Latest Fashion</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto drop-shadow-lg">Discover trendy shirts, sweaters & more. Free shipping on orders over ₹999.</p>
+            <a href="#products" class="bg-white text-primary px-10 py-4 rounded-full text-xl font-semibold hover:bg-gray-100 shadow-2xl hover:scale-105 transition-all duration-300 inline-block">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-8">
+    <!-- Casual Shirt -->
+    <div class="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+        <div class="h-64 bg-gradient-to-br from-gray-100 to-gray-200 group-hover:scale-105 transition-transform duration-500 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400" alt="Casual Shirt" class="w-full h-full object-cover">
+        </div>
+        <div class="p-8">
+            <h3 class="text-xl font-semibold mb-2 text-gray-900">Casual Shirt</h3>
+            <p class="text-gray-600 mb-4">Premium cotton blend.</p>
+            <div class="flex items-center justify-between">
+                <span class="text-2xl font-bold text-primary">₹1,299</span>
+                <button class="bg-primary text-white px-6 py-2 rounded-xl hover:bg-indigo-700 transition">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <!-- Wool Sweater -->
+    <div class="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+        <div class="h-64 bg-gradient-to-br from-gray-100 to-gray-200 group-hover:scale-105 transition-transform duration-500 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=400" alt="Wool Sweater" class="w-full h-full object-cover">
+        </div>
+        <div class="p-8">
+            <h3 class="text-xl font-semibold mb-2 text-gray-900">Wool Sweater</h3>
+            <p class="text-gray-600 mb-4">Warm winter essential.</p>
+            <div class="flex items-center justify-between">
+                <span class="text-2xl font-bold text-primary">₹2,499</span>
+                <button class="bg-primary text-white px-6 py-2 rounded-xl hover:bg-indigo-700 transition">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <!-- Slim Jeans -->
+    <div class="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+        <div class="h-64 bg-gradient-to-br from-gray-100 to-gray-200 group-hover:scale-105 transition-transform duration-500 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=400" alt="Slim Jeans" class="w-full h-full object-cover">
+        </div>
+        <div class="p-8">
+            <h3 class="text-xl font-semibold mb-2 text-gray-900">Slim Fit Jeans</h3>
+            <p class="text-gray-600 mb-4">Stretch denim comfort.</p>
+            <div class="flex items-center justify-between">
+                <span class="text-2xl font-bold text-primary">₹1,799</span>
+                <button class="bg-primary text-white px-6 py-2 rounded-xl hover:bg-indigo-700 transition">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <!-- Summer Dress -->
+    <div class="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+        <div class="h-64 bg-gradient-to-br from-gray-100 to-gray-200 group-hover:scale-105 transition-transform duration-500 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400" alt="Summer Dress" class="w-full h-full object-cover">
+        </div>
+        <div class="p-8">
+            <h3 class="text-xl font-semibold mb-2 text-gray-900">Floral Dress</h3>
+            <p class="text-gray-600 mb-4">Light & breezy fabric.</p>
+            <div class="flex items-center justify-between">
+                <span class="text-2xl font-bold text-primary">₹2,199</span>
+                <button class="bg-primary text-white px-6 py-2 rounded-xl hover:bg-indigo-700 transition">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <!-- Leather Jacket -->
+    <div class="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+        <div class="h-64 bg-gradient-to-br from-gray-100 to-gray-200 group-hover:scale-105 transition-transform duration-500 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400" alt="Leather Jacket" class="w-full h-full object-cover">
+        </div>
+        <div class="p-8">
+            <h3 class="text-xl font-semibold mb-2 text-gray-900">Leather Jacket</h3>
+            <p class="text-gray-600 mb-4">Classic biker style.</p>
+            <div class="flex items-center justify-between">
+                <span class="text-2xl font-bold text-primary">₹4,999</span>
+                <button class="bg-primary text-white px-6 py-2 rounded-xl hover:bg-indigo-700 transition">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Sneakers -->
+    <div class="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+        <div class="h-64 bg-gradient-to-br from-gray-100 to-gray-200 group-hover:scale-105 transition-transform duration-500 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400" alt="Sneakers" class="w-full h-full object-cover">
+        </div>
+        <div class="p-8">
+            <h3 class="text-xl font-semibold mb-2 text-gray-900">Air Sneakers</h3>
+            <p class="text-gray-600 mb-4">Lightweight & durable.</p>
+            <div class="flex items-center justify-between">
+                <span class="text-2xl font-bold text-primary">₹3,499</span>
+                <button class="bg-primary text-white px-6 py-2 rounded-xl hover:bg-indigo-700 transition">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <!-- Blazer -->
+    <div class="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+        <div class="h-64 bg-gradient-to-br from-gray-100 to-gray-200 group-hover:scale-105 transition-transform duration-500 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?w=400" alt="Formal Blazer" class="w-full h-full object-cover">
+        </div>
+        <div class="p-8">
+            <h3 class="text-xl font-semibold mb-2 text-gray-900">Formal Blazer</h3>
+            <p class="text-gray-600 mb-4">Tailored office wear.</p>
+            <div class="flex items-center justify-between">
+                <span class="text-2xl font-bold text-primary">₹3,799</span>
+                <button class="bg-primary text-white px-6 py-2 rounded-xl hover:bg-indigo-700 transition">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Watch -->
+    <div class="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+        <div class="h-64 bg-gradient-to-br from-gray-100 to-gray-200 group-hover:scale-105 transition-transform duration-500 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=400" alt="Designer Watch" class="w-full h-full object-cover">
+        </div>
+        <div class="p-8">
+            <h3 class="text-xl font-semibold mb-2 text-gray-900">Designer Watch</h3>
+            <p class="text-gray-600 mb-4">Minimalist style.</p>
+            <div class="flex items-center justify-between">
+                <span class="text-2xl font-bold text-primary">₹5,999</span>
+                <button class="bg-primary text-white px-6 py-2 rounded-xl hover:bg-indigo-700 transition">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Cart Drawer -->
+    <div id="cart-drawer" class="fixed inset-0 z-50 hidden bg-black/50 backdrop-blur-sm">
+        <div class="bg-white w-full md:w-96 h-full shadow-2xl translate-x-full md:translate-x-0 transition-transform duration-300">
+            <div class="p-6 border-b">
+                <h2 class="text-2xl font-bold">Shopping Cart</h2>
+                <button id="close-cart" class="float-right text-gray-500 hover:text-gray-900">&times;</button>
+            </div>
+            <div class="p-6 overflow-y-auto h-[calc(100vh-200px)]">
+                <!-- Cart items here -->
+                <p class="text-center text-gray-500 py-8">Your cart is empty</p>
+            </div>
+            <div class="p-6 border-t">
+                <div class="flex justify-between text-xl font-bold mb-4">
+                    <span>Total:</span>
+                    <span>₹0</span>
+                </div>
+                <button class="w-full bg-primary text-white py-4 rounded-xl font-semibold hover:bg-indigo-700 transition">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-900 text-white py-12 mt-20">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">FashionHub</h3>
+                    <p>Premium fashion at best prices.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-primary transition">Shop</a></li>
+                        <li><a href="#" class="hover:text-primary transition">About</a></li>
+                        <li><a href="#" class="hover:text-primary transition">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p>&copy; 2026 FashionHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

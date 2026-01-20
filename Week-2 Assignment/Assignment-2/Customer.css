@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: 
+        linear-gradient(135deg, rgba(224, 242, 254, 0.9), rgba(191, 219, 254, 0.9)),
+        url('../icons/HartfordLogo.png') center/cover fixed no-repeat;
+    min-height: 100vh;
+}
+
+.error {
+    color: #ef4444 !important;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    display: block;
+    min-height: 1.25rem;
+}

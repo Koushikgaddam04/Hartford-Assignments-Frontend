@@ -1,0 +1,119 @@
+Customers
+CustomerID(PK)
+FirstNAme
+LastNAme
+DateOfBirth
+Phone
+Email
+
+
+Policies 
+PolicyId(pk)
+PolicyNAme
+PremiumAmount
+DurationYears
+
+
+Claims
+CliamId(pk)
+AssignmentId(FK)
+CliamDate
+ClaimAmount
+ClaimStatus
+
+Agents
+AgentId(pk)
+AgentName
+Phone
+City
+
+PolicyAssignments
+AssignmentID(PK)
+CustomerID(FK)
+AgentId(FK)
+StartDate
+EndDate
+
+create table customers(
+	CustomerID int identity primary key,
+	FirstName varchar(25),
+	LastName varchar(25),
+	DateOfBirth date,
+	Phone varchar(15),
+	email varchar(50));
+
+create table Policies(
+	PolicyID int identity primary key,
+	PolicyName varchar(50),
+	PolicyType varchar(50),
+	PremiumAmount int,
+	DurationYears int
+);
+
+create table Agents(
+	AgentID int identity primary key,
+	AgentName varchar(50),
+	Phone float(10),
+	City varchar(30)
+)
+
+create table PolicyAssignments(
+	AssignmentID int identity primary key,
+	CustomerID int,
+	AgentID int,
+	StartDate date, 
+	EndDate date
+	constraint for_key_CustID Foreign Key (CustomerID) references Customers(CustomerID),
+	constraint for_key_AgentID Foreign Key (AgentID) references Agents(AgentID)
+)
+
+CREATE TABLE Claims (
+    ClientID int IDENTITY PRIMARY KEY,
+    AssignmentID int,
+    claimDate date,
+    claimAmount int,
+    claimStatus int,
+    CONSTRAINT for_key_assignID FOREIGN KEY (AssignmentID) REFERENCES PolicyAssignments(AssignmentID)
+);
+
+
+
+important thinks to learn:
+merge
+grouping sets
+rollup
+cube
+
+
+merge syntax:
+merge targetTable as t
+using sourceTable as s
+on t.id = s.id
+when matched then
+update set
+	t.name = s.name,
+	t.city = s.city
+when not matched by target then
+insert (id, name, city) values(s.id, s.name, s.city)
+when not matched by source then
+delete;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

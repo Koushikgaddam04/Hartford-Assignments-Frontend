@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Mini-Project - B's Learning World</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f9; }
+        .container { max-width: 900px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { color: #333; text-align: center; }
+        .controls { margin-bottom: 20px; display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #007bff; color: white; }
+        .status-active { color: green; font-weight: bold; }
+        .status-inactive { color: red; }
+        .summary { margin-top: 20px; padding: 15px; background: #e9ecef; border-radius: 5px; }
+        button { padding: 8px 15px; cursor: pointer; border: none; border-radius: 4px; background: #007bff; color: white; }
+        button:hover { background: #0056b3; }
+        .error { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Insurance Portal</h1>
+
+    <div class="controls">
+        <button onclick="displayPolicies(policies)">Show All</button>
+        <button onclick="handleFilter('Health')">Health Policies</button>
+        <button onclick="handleFilter('Life')">Life Policies</button>
+        <button onclick="handleFilter('Vehicle')">Vehicle Policies</button>
+        <button onclick="handleDiscount()">Apply 10% Discount (>₹10k)</button>
+    </div>
+
+    <div id="error-message" class="error"></div>
+
+    <table id="policy-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Premium (₹)</th>
+                <th>Duration (Yrs)</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="policy-body">
+            </tbody>
+    </table>
+
+    <div class="summary">
+        <strong>Total Active Premium: </strong> ₹<span id="total-premium">0</span>
+    </div>
+</div>
+
+<script src="insurance.js"></script>
+</body>
+</html>
