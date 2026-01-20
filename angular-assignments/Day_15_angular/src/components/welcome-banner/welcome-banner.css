@@ -1,0 +1,16 @@
+.welcome{
+    display: flex;
+    text-align: center;
+}
+h1{
+    font-size: 100px;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 5px 5px 25px rgb(241, 211, 104);
+}
+.welText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
