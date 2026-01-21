@@ -1,0 +1,11 @@
+<nav>
+    <input type="text" [(ngModel)] = "hello">
+    <h1>Hello {{hello}}</h1>
+    {{title()}}
+</nav>
+
+<app-greeting [message]="title()" />
+<input type="text" (click)="clickHandler()" (keypress)="keyclick($event)">
+
+
+<app-counter/>
