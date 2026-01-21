@@ -1,0 +1,17 @@
+<div class="calculator-container">
+  <h2>Calculator Consumer Component</h2>
+  
+  <p>Number A: {{ a }}</p>
+  <p>Number B: {{ a }}</p>
+  <label for="">A:</label>
+  <input type="number" [(ngModel)] = "a">
+  <label for="">B:</label>
+  <input type="number" [(ngModel)] = "b">
+  <button (click)="addNum()">Add</button>
+  <button (click)="subNum()">Sub</button>
+  <button (click)="mulNum()">Mul</button>
+  <button (click)="divNum()">Div</button>
+
+
+  <h3>Result: {{ans}}</h3>
+</div>

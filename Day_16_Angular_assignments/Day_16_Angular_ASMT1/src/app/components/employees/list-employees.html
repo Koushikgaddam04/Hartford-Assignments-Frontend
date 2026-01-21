@@ -1,0 +1,51 @@
+<div class="contianer">
+    <div class="row">
+        @for(employee of employees; track $index){
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-img-top" src={{employee.photoPath}}
+                    alt="Card image"/>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            {{employee.name}}
+                        </h4>
+                        <div class="card-text">
+                            <div class="col-xs-8">
+                                <div class="row">
+                                    <div class="col-xs-6">Gender:{{employee.gender
+                            }}</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        Date of Birth:{{employee.dateOfBirth | date}}
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        Contact Preference : {{employee.contactPreference 
+                                        }}
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-6">Email:{{employee.email 
+                                        }}</div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                    Department:{{employee.department }}
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-6">Is Active: {{
+                                        employee.isActive}}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
