@@ -1,0 +1,17 @@
+<div class="flex h-screen items-center justify-center bg-gradient-to-br from-orange-400 to-red-500">
+  <div class="w-96 rounded-lg bg-white p-8 shadow-xl">
+    <h2 class="mb-6 text-center text-3xl font-bold">Sign In</h2>
+    <div class="mb-4">
+      <label class="block text-sm font-medium">Username</label>
+      <input [(ngModel)]="userObj.EmailId" type="text" class="w-full rounded border p-2 focus:outline-orange-500">
+    </div>
+    <div class="mb-6">
+        <label class="block text-sm font-medium">Password</label>
+        <input [(ngModel)]="userObj.Password" type="password" class="w-full rounded border p-2 focus:outline-orange-500">
+    </div>
+    <p>Username: admin</p>
+    <p>Password: 1234</p>
+    <br>
+    <button (click)="onLogin()" class="w-full rounded bg-orange-500 py-2 font-bold text-white hover:bg-orange-600">Sign In</button>
+  </div>
+</div>

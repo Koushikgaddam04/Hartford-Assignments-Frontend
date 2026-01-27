@@ -1,0 +1,15 @@
+<nav class="flex items-center justify-between bg-gray-800 p-4 text-white">
+  <div class="flex gap-6">
+    <span class="text-xl font-bold">MyAuthApp</span>
+    <a routerLink="add-emp" class="hover:text-orange-400">Add New</a>
+    <a routerLink="list-emp" class="hover:text-orange-400">Employee List</a>
+  </div>
+  <div class="flex items-center gap-4">
+    <span>Hello, {{ loggedUserData }}</span>
+    <button (click)="logoff()" class="rounded bg-red-500 px-4 py-1 hover:bg-red-600">LogOff</button>
+  </div>
+</nav>
+
+<div class="container mx-auto mt-8 p-4">
+  <router-outlet></router-outlet>
+</div>
