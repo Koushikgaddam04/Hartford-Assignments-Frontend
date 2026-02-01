@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week_5_CS_ASSMT_1", "Week_5_CS_ASSMT_1.csproj", "{3C3112E6-F7AF-47AA-9125-36770C5E5164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryCalculator", "..\SalaryCalculator\SalaryCalculator.csproj", "{72AE9FE4-B084-432D-834E-8A97D3DA8417}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C3112E6-F7AF-47AA-9125-36770C5E5164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C3112E6-F7AF-47AA-9125-36770C5E5164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C3112E6-F7AF-47AA-9125-36770C5E5164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3112E6-F7AF-47AA-9125-36770C5E5164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72AE9FE4-B084-432D-834E-8A97D3DA8417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72AE9FE4-B084-432D-834E-8A97D3DA8417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72AE9FE4-B084-432D-834E-8A97D3DA8417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72AE9FE4-B084-432D-834E-8A97D3DA8417}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84E274D2-D2D4-4E77-8B34-C7960E7242DB}
+	EndGlobalSection
+EndGlobal

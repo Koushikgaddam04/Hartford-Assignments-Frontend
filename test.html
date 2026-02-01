@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Live 5-Star Rating</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col items-center justify-center h-screen bg-gray-100">
+  <h2 class="text-xl font-semibold mb-2">Rate This Product</h2>
+
+  <!-- Star Rating -->
+  <div id="rating" class="flex text-4xl gap-1 mb-2">
+    <span data-value="1" class="cursor-pointer text-gray-400 hover:text-yellow-500 transition">★</span>
+    <span data-value="2" class="cursor-pointer text-gray-400 hover:text-yellow-500 transition">★</span>
+    <span data-value="3" class="cursor-pointer text-gray-400 hover:text-yellow-500 transition">★</span>
+    <span data-value="4" class="cursor-pointer text-gray-400 hover:text-yellow-500 transition">★</span>
+    <span data-value="5" class="cursor-pointer text-gray-400 hover:text-yellow-500 transition">★</span>
+  </div>
+
+  <!-- Display Rating -->
+  <p id="rating-text" class="text-gray-600 mb-4">Rating: 0 of 5 stars</p>
+
+  <script>
+    const stars = document.querySelectorAll('#rating span');
+    const ratingText = document.getElementById('rating-text');
+    let rating = 0;
+
+    stars.forEach(star => {
+      star.addEventListener('click', () => {
+        rating = parseInt(star.getAttribute('data-value'));
+        updateStars();
+      });
+
+      star.addEventListener('mouseover', () => {
+        const value = parseInt(star.getAttribute('data-value'));
+        stars.forEach(s => {
+          s.style.color = parseInt(s.getAttribute('data-value')) <= value ? '#fbbf24' : '#9ca3af';
+        });
+      });
+
+      star.addEventListener('mouseout', () => {
+        updateStars();
+      });
+    });
+
+    function updateStars() {
+      stars.forEach(s => {
+        s.style.color = parseInt(s.getAttribute('data-value')) <= rating ? '#fbbf24' : '#9ca3af';
+      });
+      ratingText.textContent = `Rating: ${rating} of 5 stars`;
+    }
+  </script>
+</body>
+</html>   
