@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\OopsBasic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBD47F8-439B-40DA-A1D3-39355D097E4C}|OopsBasic.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\oopsbasic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBD47F8-439B-40DA-A1D3-39355D097E4C}|OopsBasic.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FBD47F8-439B-40DA-A1D3-39355D097E4C}|OopsBasic.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\oopsbasic\\prog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FBD47F8-439B-40DA-A1D3-39355D097E4C}|OopsBasic.csproj|solutionrelative:prog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "prog.cs",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\OopsBasic\\prog.cs",
+              "RelativeDocumentMoniker": "prog.cs",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\OopsBasic\\prog.cs",
+              "RelativeToolTip": "prog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T09:13:37.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\OopsBasic\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\OopsBasic\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T06:17:36.484Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
