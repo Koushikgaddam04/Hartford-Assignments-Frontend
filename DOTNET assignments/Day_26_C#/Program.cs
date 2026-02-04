@@ -37,15 +37,11 @@ namespace Day_26_C_
                     employees.Sort(new NameWiseComparator());
                     break;
             }
-            //switch
-            //employees.Sort();
-            //employees.Sort(new DeptWiseComparator());
-            //employees.Sort(new NameWiseComparator());
             foreach (Emp emp in employees)
             {
-                Console.WriteLine($"Id: {emp.Id}, Name: {emp.Name}, Position: {emp.Department}, Salary: {emp.Salary}");
+                Console.WriteLine(emp.ToString());
+                //Console.WriteLine($"Id: {emp.Id}, Name: {emp.Name}, Position: {emp.Department}, Salary: {emp.Salary}");
             }
-
         }
     }
 }
