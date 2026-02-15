@@ -43,6 +43,27 @@
   },
   {
     "ContainingType": "MoviesWebApp.Controllers.MoviesController",
+    "Method": "Update",
+    "RelativePath": "api/Movies/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "MoviesWebApp.DTOs.MovieCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MoviesWebApp.Controllers.MoviesController",
     "Method": "Remove",
     "RelativePath": "api/Movies/{id}",
     "HttpMethod": "DELETE",

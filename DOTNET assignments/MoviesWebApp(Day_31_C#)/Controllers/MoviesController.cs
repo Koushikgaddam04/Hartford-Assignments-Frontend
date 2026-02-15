@@ -41,6 +41,15 @@ namespace MoviesWebApp.Controllers
             return CreatedAtAction(nameof(GetById), new { id = movie.MovieId }, movie);
         }
 
+
+        [HttpPut("{id}")]
+        public IActionResult Update(int id, MovieCreateDTO dto)
+        {
+            var updated = _service.Update(id, dto);
+            if (!updated) return NotFound();
+            return NoContent();
+        }
+
         [HttpDelete("{id}")]
         public IActionResult Remove(int id)
         {

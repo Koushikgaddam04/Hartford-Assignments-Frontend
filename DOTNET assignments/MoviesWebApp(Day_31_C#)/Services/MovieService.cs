@@ -6,6 +6,8 @@ namespace MoviesWebApp.Services
     public class MovieService : IMovieService
     {
         private static List<Movies> _movieList = new List<Movies> {
+        new Movies { MovieId = 1, MovieName = "The Shawshank Redemption", Genre = "Drama", Rating = 9.3m },
+        new Movies { MovieId = 1, MovieName = "The Godfather", Genre = "Crime", Rating = 9.2m },
         new Movies { MovieId = 1, MovieName = "Inception", Genre = "Sci-Fi", Rating = 8.8m }
     };
 

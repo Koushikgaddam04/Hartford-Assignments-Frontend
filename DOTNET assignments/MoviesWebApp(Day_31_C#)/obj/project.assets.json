@@ -453,11 +453,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\MoviesWebApp\\MoviesWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\MoviesWebApp(Day_31_C#)\\MoviesWebApp.csproj",
       "projectName": "MoviesWebApp",
-      "projectPath": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\MoviesWebApp\\MoviesWebApp.csproj",
+      "projectPath": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\MoviesWebApp(Day_31_C#)\\MoviesWebApp.csproj",
       "packagesPath": "C:\\Users\\Koushik Gaddam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\MoviesWebApp\\obj\\",
+      "outputPath": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\MoviesWebApp(Day_31_C#)\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
