@@ -1,4 +1,4 @@
-@Week_7_CS_ASSMT_HostAddress = http://localhost:5063
+@Week_7_CS_ASSMT_HostAddress = http://localhost:5248
 
 GET {{Week_7_CS_ASSMT_HostAddress}}/weatherforecast/
 Accept: application/json

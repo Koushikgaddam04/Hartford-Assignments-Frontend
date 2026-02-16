@@ -1,15 +1,15 @@
 [
   {
-    "ContainingType": "Week_7_CS_ASSMT.Controllers.CategoriesController",
-    "Method": "GetCategories",
-    "RelativePath": "api/Categories",
+    "ContainingType": "Week_7_CS_ASSMT.Controllers.CustomersController",
+    "Method": "GetCustomers",
+    "RelativePath": "api/Customers",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Week_7_CS_ASSMT.Models.Category, Week_7_CS_ASSMT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Week_7_CS_ASSMT.Models.Customer, Week_7_CS_ASSMT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -20,22 +20,22 @@
     ]
   },
   {
-    "ContainingType": "Week_7_CS_ASSMT.Controllers.CategoriesController",
-    "Method": "PostCategory",
-    "RelativePath": "api/Categories",
+    "ContainingType": "Week_7_CS_ASSMT.Controllers.CustomersController",
+    "Method": "PostCustomer",
+    "RelativePath": "api/Customers",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "categoryDto",
-        "Type": "Week_7_CS_ASSMT.DTOs.CategoryCreateDTO",
+        "Name": "customerdto",
+        "Type": "Week_7_CS_ASSMT.DTOs.CustomerCreateDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Week_7_CS_ASSMT.Models.Category",
+        "Type": "Week_7_CS_ASSMT.Models.Customer",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -46,9 +46,9 @@
     ]
   },
   {
-    "ContainingType": "Week_7_CS_ASSMT.Controllers.CategoriesController",
-    "Method": "GetCategory",
-    "RelativePath": "api/Categories/{id}",
+    "ContainingType": "Week_7_CS_ASSMT.Controllers.CustomersController",
+    "Method": "GetCustomer",
+    "RelativePath": "api/Customers/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Week_7_CS_ASSMT.Models.Category",
+        "Type": "Week_7_CS_ASSMT.Models.Customer",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -72,9 +72,9 @@
     ]
   },
   {
-    "ContainingType": "Week_7_CS_ASSMT.Controllers.CategoriesController",
-    "Method": "PutCategory",
-    "RelativePath": "api/Categories/{id}",
+    "ContainingType": "Week_7_CS_ASSMT.Controllers.CustomersController",
+    "Method": "PutCustomer",
+    "RelativePath": "api/Customers/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -85,17 +85,17 @@
         "IsRequired": true
       },
       {
-        "Name": "category",
-        "Type": "Week_7_CS_ASSMT.Models.Category",
+        "Name": "customer",
+        "Type": "Week_7_CS_ASSMT.Models.Customer",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Week_7_CS_ASSMT.Controllers.CategoriesController",
-    "Method": "DeleteCategory",
-    "RelativePath": "api/Categories/{id}",
+    "ContainingType": "Week_7_CS_ASSMT.Controllers.CustomersController",
+    "Method": "DeleteCustomer",
+    "RelativePath": "api/Customers/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -109,16 +109,16 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Week_7_CS_ASSMT.Controllers.ProductsController",
-    "Method": "GetProducts",
-    "RelativePath": "api/Products",
+    "ContainingType": "Week_7_CS_ASSMT.Controllers.InsurancePoliciesController",
+    "Method": "GetInsurancePolicies",
+    "RelativePath": "api/InsurancePolicies",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Week_7_CS_ASSMT.Models.Product, Week_7_CS_ASSMT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Week_7_CS_ASSMT.Models.InsurancePolicy, Week_7_CS_ASSMT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -129,22 +129,22 @@
     ]
   },
   {
-    "ContainingType": "Week_7_CS_ASSMT.Controllers.ProductsController",
-    "Method": "PostProduct",
-    "RelativePath": "api/Products",
+    "ContainingType": "Week_7_CS_ASSMT.Controllers.InsurancePoliciesController",
+    "Method": "PostInsurancePolicy",
+    "RelativePath": "api/InsurancePolicies",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "productDto",
-        "Type": "Week_7_CS_ASSMT.DTOs.ProductCreateDTO",
+        "Name": "insuranceDto",
+        "Type": "Week_7_CS_ASSMT.DTOs.PolicyCreateDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Week_7_CS_ASSMT.Models.Product",
+        "Type": "Week_7_CS_ASSMT.Models.InsurancePolicy",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -155,9 +155,9 @@
     ]
   },
   {
-    "ContainingType": "Week_7_CS_ASSMT.Controllers.ProductsController",
-    "Method": "GetProduct",
-    "RelativePath": "api/Products/{id}",
+    "ContainingType": "Week_7_CS_ASSMT.Controllers.InsurancePoliciesController",
+    "Method": "GetInsurancePolicy",
+    "RelativePath": "api/InsurancePolicies/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -170,7 +170,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Week_7_CS_ASSMT.Models.Product",
+        "Type": "Week_7_CS_ASSMT.Models.InsurancePolicy",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -181,9 +181,9 @@
     ]
   },
   {
-    "ContainingType": "Week_7_CS_ASSMT.Controllers.ProductsController",
-    "Method": "PutProduct",
-    "RelativePath": "api/Products/{id}",
+    "ContainingType": "Week_7_CS_ASSMT.Controllers.InsurancePoliciesController",
+    "Method": "PutInsurancePolicy",
+    "RelativePath": "api/InsurancePolicies/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -194,17 +194,17 @@
         "IsRequired": true
       },
       {
-        "Name": "product",
-        "Type": "Week_7_CS_ASSMT.Models.Product",
+        "Name": "insurancePolicy",
+        "Type": "Week_7_CS_ASSMT.Models.InsurancePolicy",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Week_7_CS_ASSMT.Controllers.ProductsController",
-    "Method": "DeleteProduct",
-    "RelativePath": "api/Products/{id}",
+    "ContainingType": "Week_7_CS_ASSMT.Controllers.InsurancePoliciesController",
+    "Method": "DeleteInsurancePolicy",
+    "RelativePath": "api/InsurancePolicies/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
