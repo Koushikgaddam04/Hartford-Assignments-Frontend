@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25BEA6E2-7789-44D3-8E40-CAE3974B364E}|Day_32_C#.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\day_32_c#\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25BEA6E2-7789-44D3-8E40-CAE3974B364E}|Day_32_C#.csproj|solutionrelative:controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25BEA6E2-7789-44D3-8E40-CAE3974B364E}|Day_32_C#.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\day_32_c#\\dtos\\customercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25BEA6E2-7789-44D3-8E40-CAE3974B364E}|Day_32_C#.csproj|solutionrelative:dtos\\customercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25BEA6E2-7789-44D3-8E40-CAE3974B364E}|Day_32_C#.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\day_32_c#\\controllers\\insurancepoliciescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25BEA6E2-7789-44D3-8E40-CAE3974B364E}|Day_32_C#.csproj|solutionrelative:controllers\\insurancepoliciescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\Migrations\\20260216101938_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260216101938_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25BEA6E2-7789-44D3-8E40-CAE3974B364E}|Day_32_C#.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\day_32_c#\\dtos\\policycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25BEA6E2-7789-44D3-8E40-CAE3974B364E}|Day_32_C#.csproj|solutionrelative:dtos\\policycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25BEA6E2-7789-44D3-8E40-CAE3974B364E}|Day_32_C#.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\day_32_c#\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{25BEA6E2-7789-44D3-8E40-CAE3974B364E}|Day_32_C#.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25BEA6E2-7789-44D3-8E40-CAE3974B364E}|Day_32_C#.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\day_32_c#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25BEA6E2-7789-44D3-8E40-CAE3974B364E}|Day_32_C#.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25BEA6E2-7789-44D3-8E40-CAE3974B364E}|Day_32_C#.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\day_32_c#\\models\\insurancecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25BEA6E2-7789-44D3-8E40-CAE3974B364E}|Day_32_C#.csproj|solutionrelative:models\\insurancecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\Migrations\\20260216101231_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260216101231_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\Migrations\\20260216095810_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260216095810_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25BEA6E2-7789-44D3-8E40-CAE3974B364E}|Day_32_C#.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\day_32_c#\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25BEA6E2-7789-44D3-8E40-CAE3974B364E}|Day_32_C#.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25BEA6E2-7789-44D3-8E40-CAE3974B364E}|Day_32_C#.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\day_32_c#\\models\\insurancepolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25BEA6E2-7789-44D3-8E40-CAE3974B364E}|Day_32_C#.csproj|solutionrelative:models\\insurancepolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\DTOs\\CustomerCreateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CustomerCreateDto.cs",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\DTOs\\CustomerCreateDto.cs",
+              "RelativeToolTip": "DTOs\\CustomerCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:29:23.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InsurancePoliciesController.cs",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\Controllers\\InsurancePoliciesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InsurancePoliciesController.cs",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\Controllers\\InsurancePoliciesController.cs",
+              "RelativeToolTip": "Controllers\\InsurancePoliciesController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAxwFgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:22:32.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAkwFAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:22:08.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20260216101938_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\Migrations\\20260216101938_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260216101938_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\Migrations\\20260216101938_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260216101938_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:19:38.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PolicyCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\DTOs\\PolicyCreateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\PolicyCreateDto.cs",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\DTOs\\PolicyCreateDto.cs",
+              "RelativeToolTip": "DTOs\\PolicyCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:16:44.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20260216101231_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\Migrations\\20260216101231_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260216101231_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\Migrations\\20260216101231_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260216101231_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:12:31.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20260216095810_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\Migrations\\20260216095810_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260216095810_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\Migrations\\20260216095810_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260216095810_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T09:58:10.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InsuranceContext.cs",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\Models\\InsuranceContext.cs",
+              "RelativeDocumentMoniker": "Models\\InsuranceContext.cs",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\Models\\InsuranceContext.cs",
+              "RelativeToolTip": "Models\\InsuranceContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T09:53:11.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T09:51:57.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-16T09:41:01.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InsurancePolicy.cs",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\Models\\InsurancePolicy.cs",
+              "RelativeDocumentMoniker": "Models\\InsurancePolicy.cs",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\Models\\InsurancePolicy.cs",
+              "RelativeToolTip": "Models\\InsurancePolicy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T09:36:17.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_32_C#\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T09:35:45.548Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

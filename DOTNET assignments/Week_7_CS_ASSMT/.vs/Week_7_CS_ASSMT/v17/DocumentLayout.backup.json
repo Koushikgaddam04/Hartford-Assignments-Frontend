@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_7_CS_ASSMT\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{94973626-041B-4713-A561-B26EAB9D2734}|Week_7_CS_ASSMT.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\week_7_cs_assmt\\models\\insurancepolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94973626-041B-4713-A561-B26EAB9D2734}|Week_7_CS_ASSMT.csproj|solutionrelative:models\\insurancepolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94973626-041B-4713-A561-B26EAB9D2734}|Week_7_CS_ASSMT.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\week_7_cs_assmt\\models\\insurancecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94973626-041B-4713-A561-B26EAB9D2734}|Week_7_CS_ASSMT.csproj|solutionrelative:models\\insurancecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94973626-041B-4713-A561-B26EAB9D2734}|Week_7_CS_ASSMT.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\week_7_cs_assmt\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94973626-041B-4713-A561-B26EAB9D2734}|Week_7_CS_ASSMT.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{94973626-041B-4713-A561-B26EAB9D2734}|Week_7_CS_ASSMT.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\week_7_cs_assmt\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94973626-041B-4713-A561-B26EAB9D2734}|Week_7_CS_ASSMT.csproj|solutionrelative:controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +23,8 @@
       "RelativeMoniker": "D:0:0:{94973626-041B-4713-A561-B26EAB9D2734}|Week_7_CS_ASSMT.csproj|solutionrelative:dtos\\customercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94973626-041B-4713-A561-B26EAB9D2734}|Week_7_CS_ASSMT.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\week_7_cs_assmt\\models\\insurancecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94973626-041B-4713-A561-B26EAB9D2734}|Week_7_CS_ASSMT.csproj|solutionrelative:models\\insurancecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94973626-041B-4713-A561-B26EAB9D2734}|Week_7_CS_ASSMT.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\week_7_cs_assmt\\models\\insurancepolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94973626-041B-4713-A561-B26EAB9D2734}|Week_7_CS_ASSMT.csproj|solutionrelative:models\\insurancepolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{94973626-041B-4713-A561-B26EAB9D2734}|Week_7_CS_ASSMT.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\week_7_cs_assmt\\dtos\\policycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94973626-041B-4713-A561-B26EAB9D2734}|Week_7_CS_ASSMT.csproj|solutionrelative:dtos\\policycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94973626-041B-4713-A561-B26EAB9D2734}|Week_7_CS_ASSMT.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\week_7_cs_assmt\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94973626-041B-4713-A561-B26EAB9D2734}|Week_7_CS_ASSMT.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94973626-041B-4713-A561-B26EAB9D2734}|Week_7_CS_ASSMT.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\week_7_cs_assmt\\controllers\\insurancepoliciescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PolicyCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_7_CS_ASSMT\\DTOs\\PolicyCreateDto.cs",
               "RelativeDocumentMoniker": "DTOs\\PolicyCreateDto.cs",
@@ -50,8 +50,7 @@
               "RelativeToolTip": "DTOs\\PolicyCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T05:20:28.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T05:20:28.17Z"
             },
             {
               "$type": "Document",
@@ -59,29 +58,28 @@
               "Title": "InsurancePoliciesController.cs",
               "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_7_CS_ASSMT\\Controllers\\InsurancePoliciesController.cs",
               "RelativeDocumentMoniker": "Controllers\\InsurancePoliciesController.cs",
-              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_7_CS_ASSMT\\Controllers\\InsurancePoliciesController.cs*",
-              "RelativeToolTip": "Controllers\\InsurancePoliciesController.cs*",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_7_CS_ASSMT\\Controllers\\InsurancePoliciesController.cs",
+              "RelativeToolTip": "Controllers\\InsurancePoliciesController.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAkwFUAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T05:19:37.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T05:19:37.465Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "InsurancePolicy.cs",
               "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_7_CS_ASSMT\\Models\\InsurancePolicy.cs",
               "RelativeDocumentMoniker": "Models\\InsurancePolicy.cs",
-              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_7_CS_ASSMT\\Models\\InsurancePolicy.cs*",
-              "RelativeToolTip": "Models\\InsurancePolicy.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAxwBAAAAAUAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_7_CS_ASSMT\\Models\\InsurancePolicy.cs",
+              "RelativeToolTip": "Models\\InsurancePolicy.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-16T05:11:22.165Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "InsuranceContext.cs",
               "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_7_CS_ASSMT\\Models\\InsuranceContext.cs",
               "RelativeDocumentMoniker": "Models\\InsuranceContext.cs",
@@ -89,25 +87,23 @@
               "RelativeToolTip": "Models\\InsuranceContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T05:11:19.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T05:11:19.071Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_7_CS_ASSMT\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_7_CS_ASSMT\\Models\\Customer.cs*",
-              "RelativeToolTip": "Models\\Customer.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_7_CS_ASSMT\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T05:11:11.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T05:11:11.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "CustomerCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_7_CS_ASSMT\\DTOs\\CustomerCreateDto.cs",
               "RelativeDocumentMoniker": "DTOs\\CustomerCreateDto.cs",
@@ -115,21 +111,19 @@
               "RelativeToolTip": "DTOs\\CustomerCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T04:22:39.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T04:22:39.014Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CustomersController.cs",
               "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_7_CS_ASSMT\\Controllers\\CustomersController.cs",
               "RelativeDocumentMoniker": "Controllers\\CustomersController.cs",
-              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_7_CS_ASSMT\\Controllers\\CustomersController.cs*",
-              "RelativeToolTip": "Controllers\\CustomersController.cs*",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwBwAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_7_CS_ASSMT\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T04:13:20.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T04:13:20.801Z"
             }
           ]
         }
