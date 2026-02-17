@@ -1,4 +1,4 @@
-@Day_32_C__SeedData_HostAddress = http://localhost:5204
+@Day_32_C__SeedData_HostAddress = http://localhost:5275
 
 GET {{Day_32_C__SeedData_HostAddress}}/weatherforecast/
 Accept: application/json

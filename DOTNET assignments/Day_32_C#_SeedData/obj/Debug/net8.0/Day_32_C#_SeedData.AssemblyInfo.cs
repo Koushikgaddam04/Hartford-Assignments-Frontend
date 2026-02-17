@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Day_32_C#_SeedData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0932d713dac7da4f94b29dc5a32683c813bf7bed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+863b0657f0938614841a243466d2ee631cbe3b93")]
 [assembly: System.Reflection.AssemblyProductAttribute("Day_32_C#_SeedData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Day_32_C#_SeedData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,45 +7,35 @@ namespace Day_32_C__SeedData
     {
         public static void Main(string[] args)
         {
-            try
+            var builder = WebApplication.CreateBuilder(args);
+
+            // Add services to the container.
+                builder.Services.AddDbContext<UserContext>(options =>
+                    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
+            builder.Services.AddControllers();
+            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen();
+
+            var app = builder.Build();
+
+            // Configure the HTTP request pipeline.
+            if (app.Environment.IsDevelopment())
             {
-                using (var context = new MapContext())
-                {
-                    // Initialize and seed the database
-                    DbInitializer.Initialize(context);
-                    // Display the seeded data
-                    // Retrieve and display Countries
-                    Console.WriteLine("=== Country Master Data ===");
-                    var countries = context.Countries.ToList();
-                    foreach (var country in countries)
-                    {
-                        Console.WriteLine($"Country ID: {country.CountryId}, Name: {country.CountryName}, Code: {country.CountryCode}");
-                    }
-                    // Retrieve and display States
-                    Console.WriteLine("\n=== State Master Data ===");
-                    var states = context.States
-                                        .Include(s => s.Country)
-                                        .ToList();
-                    foreach (var state in states)
-                    {
-                        Console.WriteLine($"State ID: {state.StateId}, Name: {state.StateName}, Country: {state.Country.CountryName}");
-                    }
-                    // Retrieve and display Cities
-                    Console.WriteLine("\n=== City Master Data ===");
-                    var cities = context.Cities
-                                        .Include(c => c.State)
-                                            .ThenInclude(s => s.Country)
-                                        .ToList();
-                    foreach (var city in cities)
-                    {
-                        Console.WriteLine($"City ID: {city.CityId}, Name: {city.CityName}, State: {city.State.StateName}, Country: {city.State.Country.CountryName}");
-                    }
-                }
+                app.UseSwagger();
+                app.UseSwaggerUI();
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"An error occurred: {ex.Message}");
-            }
+
+            app.UseHttpsRedirection();
+
+            app.UseAuthorization();
+
+
+            app.MapControllers();
+
+            app.Run();
         }
     }
 }
