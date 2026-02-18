@@ -1,4 +1,5 @@
 ﻿using Day_33_C__JWT.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
@@ -10,6 +11,7 @@ namespace Day_33_C__JWT.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class AuthController : ControllerBase
     {
         private readonly JwtSettings _jwtsettings;
@@ -20,6 +22,7 @@ namespace Day_33_C__JWT.Controllers
         }
 
         [HttpPost("token")]
+        [Authorize(Roles = "Admin")] // Only users with the "Admin" role can access this endpoint
         public IActionResult GenerateToken()
         {
             try

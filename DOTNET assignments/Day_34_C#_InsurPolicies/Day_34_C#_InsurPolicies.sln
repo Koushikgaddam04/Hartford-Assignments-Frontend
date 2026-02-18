@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day_34_C#_InsurPolicies", "Day_34_C#_InsurPolicies.csproj", "{F152A321-1E14-4490-BA89-38873799EBCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F152A321-1E14-4490-BA89-38873799EBCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F152A321-1E14-4490-BA89-38873799EBCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F152A321-1E14-4490-BA89-38873799EBCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F152A321-1E14-4490-BA89-38873799EBCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AB72D99-0C19-410B-ACD0-66DAAC3BB9C7}
+	EndGlobalSection
+EndGlobal
