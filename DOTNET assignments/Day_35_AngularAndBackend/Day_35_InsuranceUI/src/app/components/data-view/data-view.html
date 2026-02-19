@@ -1,0 +1,43 @@
+<div class="p-8">
+  <div class="flex justify-between items-center mb-6">
+    <h2 class="text-3xl font-extrabold text-blue-900">Policy Database</h2>
+    <button (click)="fetchPolicies()" class="bg-blue-100 text-blue-700 px-4 py-2 rounded hover:bg-blue-200 transition">
+      Refresh Data
+    </button>
+  </div>
+  
+  <div class="bg-white shadow-xl rounded-xl overflow-hidden border border-gray-200">
+    <table class="w-full text-left">
+      <thead>
+        <tr class="bg-blue-700 text-white">
+          <th class="p-4 font-semibold uppercase text-sm">Policy #</th>
+          <th class="p-4 font-semibold uppercase text-sm">Type</th>
+          <th class="p-4 font-semibold uppercase text-sm">Premium</th>
+          <th class="p-4 font-semibold uppercase text-sm">Customer Name</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-gray-100">
+        <tr *ngFor="let p of policies" class="hover:bg-blue-50 transition-colors">
+          <td class="p-4 text-gray-700 font-medium">{{ p.policyNumber }}</td>
+          <td class="p-4">
+            <span class="px-3 py-1 rounded-full text-xs font-bold bg-blue-100 text-blue-800">
+              {{ p.type }}
+            </span>
+          </td>
+          <td class="p-4 text-emerald-600 font-bold">
+            {{ p.premium | currency:'INR':'symbol' }}
+          </td>
+          <td class="p-4 text-gray-600 italic">
+            {{ p.customer?.name || 'Unassigned' }}
+          </td>
+        </tr>
+
+        <tr *ngIf="policies.length === 0">
+          <td colspan="4" class="p-10 text-center text-gray-400">
+            No policies found. Try adding one in the 'Create' tab.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

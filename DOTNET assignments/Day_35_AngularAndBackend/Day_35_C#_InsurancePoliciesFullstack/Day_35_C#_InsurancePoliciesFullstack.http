@@ -1,0 +1,6 @@
+@Day_35_C__InsurancePoliciesFullstack_HostAddress = http://localhost:5103
+
+GET {{Day_35_C__InsurancePoliciesFullstack_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

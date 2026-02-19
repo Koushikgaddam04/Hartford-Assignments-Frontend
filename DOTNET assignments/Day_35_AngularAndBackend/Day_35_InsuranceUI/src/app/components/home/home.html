@@ -1,0 +1,42 @@
+<div class="min-h-screen bg-gray-50 flex flex-col items-center py-12 px-4">
+  <div class="max-w-4xl w-full text-center mb-12">
+    <h1 class="text-5xl font-extrabold text-blue-900 mb-4 tracking-tight">
+      Insurance Management Portal
+    </h1>
+    <p class="text-xl text-gray-600">
+      Welcome back, <span class="font-bold text-blue-700">G. Koushik</span>. 
+      Manage your policies and customer records below.
+    </p>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl w-full">
+    
+    <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-2xl transition-shadow cursor-pointer group">
+      <div class="h-14 w-14 bg-blue-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-700 transition-colors">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-700 group-hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+        </svg>
+      </div>
+      <h3 class="text-2xl font-bold text-gray-800 mb-2">Policy Database</h3>
+      <p class="text-gray-500 mb-6">View, search, and manage all active insurance policies in the system.</p>
+      <a routerLink="/data" class="inline-block bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg hover:bg-blue-800">
+        Go to Database
+      </a>
+    </div>
+
+    <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-2xl transition-shadow cursor-pointer group">
+      <div class="h-14 w-14 bg-emerald-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-emerald-600 transition-colors">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-emerald-600 group-hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+        </svg>
+      </div>
+      <h3 class="text-2xl font-bold text-gray-800 mb-2">New Registration</h3>
+      <p class="text-gray-500 mb-6">Register a new policy and assign it to an existing customer account.</p>
+      <a routerLink="/create" class="inline-block bg-emerald-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-emerald-700">
+        Create Policy
+      </a>
+    </div>
+
+  </div>
+
+</div>
