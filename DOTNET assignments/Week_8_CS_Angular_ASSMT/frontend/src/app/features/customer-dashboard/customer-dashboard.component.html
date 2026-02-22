@@ -1,0 +1,21 @@
+<div class="min-h-screen bg-gray-50 flex flex-col">
+    <nav class="bg-blue-600 text-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between h-16 items-center">
+            <div class="font-bold text-xl tracking-wider">Customer Portal</div>
+            <a routerLink="/" class="text-sm font-medium hover:text-blue-200 transition-colors">Back to Home</a>
+        </div>
+    </nav>
+
+    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
+        <h1 class="text-3xl font-bold text-gray-900 mb-8">My Insurance Portfolio</h1>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div class="lg:col-span-2 space-y-8">
+                <app-data-view #dataView></app-data-view>
+            </div>
+            <div class="lg:col-span-1 border-l pl-8 border-gray-200">
+                <app-create-record (recordCreated)="onRecordCreated()"></app-create-record>
+            </div>
+        </div>
+    </main>
+</div>

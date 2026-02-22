@@ -16,7 +16,6 @@ namespace Day_35_C__InsurancePoliciesFullstack.Models
 
         [EmailAddress] // Validates format automatically
         public string Email { get; set; } = string.Empty;
-        [JsonIgnore]
         public List<Policy> Policies { get; set; } = new();
     }
 }

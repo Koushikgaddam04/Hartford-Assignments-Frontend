@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Day_35_C__InsurancePoliciesFullstack.Models.Customer, Day_35_C#_InsurancePoliciesFullstack, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Day_35_C__InsurancePoliciesFullstack.DTOs.CustomerDTO, Day_35_C#_InsurancePoliciesFullstack, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Day_35_C__InsurancePoliciesFullstack.Models.Customer",
+        "Type": "Day_35_C__InsurancePoliciesFullstack.DTOs.CustomerDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -81,7 +81,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Day_35_C__InsurancePoliciesFullstack.Models.Policy, Day_35_C#_InsurancePoliciesFullstack, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Day_35_C__InsurancePoliciesFullstack.DTOs.PolicyDTO, Day_35_C#_InsurancePoliciesFullstack, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

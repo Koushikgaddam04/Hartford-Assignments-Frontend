@@ -3,47 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\day_35_angularandbackend\\day_35_c#_insurancepoliciesfullstack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\day_35_angularandbackend\\day_35_c#_insurancepoliciesfullstack\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\day_35_angularandbackend\\day_35_c#_insurancepoliciesfullstack\\models\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|solutionrelative:models\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\day_35_angularandbackend\\day_35_c#_insurancepoliciesfullstack\\controllers\\policiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|solutionrelative:controllers\\policiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\day_35_angularandbackend\\day_35_c#_insurancepoliciesfullstack\\repository\\policyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|solutionrelative:repository\\policyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\day_35_angularandbackend\\day_35_c#_insurancepoliciesfullstack\\repository\\ipolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|solutionrelative:repository\\ipolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\day_35_angularandbackend\\day_35_c#_insurancepoliciesfullstack\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|solutionrelative:repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\day_35_angularandbackend\\day_35_c#_insurancepoliciesfullstack\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|solutionrelative:controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\day_35_angularandbackend\\day_35_c#_insurancepoliciesfullstack\\dto\\policycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|solutionrelative:dto\\policycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\day_35_angularandbackend\\day_35_c#_insurancepoliciesfullstack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\day_35_angularandbackend\\day_35_c#_insurancepoliciesfullstack\\dto\\customercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|solutionrelative:dto\\customercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\day_35_angularandbackend\\day_35_c#_insurancepoliciesfullstack\\controllers\\policiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|solutionrelative:controllers\\policiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\day_35_angularandbackend\\day_35_c#_insurancepoliciesfullstack\\repository\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|solutionrelative:repository\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_C#_InsurancePoliciesFullstack\\Migrations\\20260219115848_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8574B1B-16CE-47E7-9DAD-1EF1D974CFF1}|Day_35_C#_InsurancePoliciesFullstack.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\day_35_angularandbackend\\day_35_c#_insurancepoliciesfullstack\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -57,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 283,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,128 +50,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "Models\\Customer.cs",
               "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\Models\\Customer.cs",
               "RelativeToolTip": "Models\\Customer.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBAAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwA0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T18:29:55.8Z"
+              "WhenOpened": "2026-02-20T07:13:56.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PoliciesController.cs",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\Controllers\\PoliciesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PoliciesController.cs",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\Controllers\\PoliciesController.cs",
+              "RelativeToolTip": "Controllers\\PoliciesController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T06:45:07.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\Repository\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\Repository\\CustomerRepository.cs",
+              "RelativeToolTip": "Repository\\CustomerRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T06:36:49.751Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Policy.cs",
-              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\Models\\Policy.cs",
-              "RelativeDocumentMoniker": "Models\\Policy.cs",
-              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\Models\\Policy.cs",
-              "RelativeToolTip": "Models\\Policy.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T18:28:33.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CustomerCreateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\DTO\\CustomerCreateDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\CustomerCreateDTO.cs",
-              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\DTO\\CustomerCreateDTO.cs",
-              "RelativeToolTip": "DTO\\CustomerCreateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T12:28:46.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PolicyCreateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\DTO\\PolicyCreateDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\PolicyCreateDTO.cs",
-              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\DTO\\PolicyCreateDTO.cs",
-              "RelativeToolTip": "DTO\\PolicyCreateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T12:25:53.491Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "CustomersController.cs",
               "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\Controllers\\CustomersController.cs",
               "RelativeDocumentMoniker": "Controllers\\CustomersController.cs",
               "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\Controllers\\CustomersController.cs",
               "RelativeToolTip": "Controllers\\CustomersController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-19T12:17:15.276Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PoliciesController.cs",
-              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\Controllers\\PoliciesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PoliciesController.cs",
-              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\Controllers\\PoliciesController.cs",
-              "RelativeToolTip": "Controllers\\PoliciesController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwCoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T12:11:32.248Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBQAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T12:09:55.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PolicyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\Repository\\PolicyRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\PolicyRepository.cs",
-              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\Repository\\PolicyRepository.cs",
-              "RelativeToolTip": "Repository\\PolicyRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T12:03:12.214Z"
+              "WhenOpened": "2026-02-19T12:09:55.198Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "IPolicyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\Repository\\IPolicyRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\IPolicyRepository.cs",
-              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\Repository\\IPolicyRepository.cs",
-              "RelativeToolTip": "Repository\\IPolicyRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T12:00:04.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20260219115848_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_C#_InsurancePoliciesFullstack\\Migrations\\20260219115848_InitialCreate.cs",
-              "RelativeDocumentMoniker": "..\\..\\Day_35_C#_InsurancePoliciesFullstack\\Migrations\\20260219115848_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_C#_InsurancePoliciesFullstack\\Migrations\\20260219115848_InitialCreate.cs",
-              "RelativeToolTip": "..\\..\\Day_35_C#_InsurancePoliciesFullstack\\Migrations\\20260219115848_InitialCreate.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T11:58:49.299Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "ICustomerRepository.cs",
               "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\Repository\\ICustomerRepository.cs",
               "RelativeDocumentMoniker": "Repository\\ICustomerRepository.cs",
@@ -202,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Day_35_AngularAndBackend\\Day_35_C#_InsurancePoliciesFullstack\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -211,10 +132,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-02-19T10:42:15.879Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

@@ -1,0 +1,55 @@
+<div class="bg-white shadow-md rounded-lg overflow-hidden border border-gray-200">
+    <div class="px-6 py-4 border-b border-gray-200 bg-gray-50">
+        <h3 class="text-lg leading-6 font-medium text-gray-900">Apply for a New Policy</h3>
+        <p class="mt-1 text-sm text-gray-500">Fill out this quick template-driven form to request coverage.</p>
+    </div>
+
+    <div class="px-6 py-4">
+        <div *ngIf="message" class="mb-4 p-3 rounded"
+            [ngClass]="isError ? 'bg-red-50 text-red-700 border-l-4 border-red-500' : 'bg-green-50 text-green-700 border-l-4 border-green-500'">
+            {{ message }}
+        </div>
+
+        <!-- The user explicitly asked for Template-Driven form with ngModel -->
+        <form (ngSubmit)="onSubmit()" #policyForm="ngForm" class="space-y-4">
+
+            <div>
+                <label for="policyNumber" class="block text-sm font-medium text-gray-700">Custom Policy Number
+                    Request</label>
+                <input type="text" id="policyNumber" name="policyNumber" [(ngModel)]="policyData.policyNumber" required
+                    #pNumber="ngModel"
+                    class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm px-3 py-2 border"
+                    placeholder="e.g. POL-2026-X89">
+                <p class="text-red-500 text-xs mt-1" *ngIf="pNumber.invalid && pNumber.touched">Policy Number is
+                    required</p>
+            </div>
+
+            <div>
+                <label for="policyType" class="block text-sm font-medium text-gray-700">Insurance Type</label>
+                <select id="policyType" name="policyType" [(ngModel)]="policyData.policyType" required
+                    class="mt-1 block w-full pl-3 pr-10 py-2 border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md border">
+                    <option value="Auto">Auto</option>
+                    <option value="Home">Home</option>
+                    <option value="Health">Health</option>
+                    <option value="Life">Life</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="premiumAmount" class="block text-sm font-medium text-gray-700">Desired Premium Amount
+                    ($)</label>
+                <input type="number" id="premiumAmount" name="premiumAmount" [(ngModel)]="policyData.premiumAmount"
+                    required min="10" #pAmount="ngModel"
+                    class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm px-3 py-2 border">
+                <p class="text-red-500 text-xs mt-1" *ngIf="pAmount.invalid && pAmount.touched">Enter a valid amount</p>
+            </div>
+
+            <div class="pt-2">
+                <button type="submit" [disabled]="!policyForm.form.valid || !hasProfile"
+                    class="inline-flex justify-center flex-1 w-full py-2.5 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:bg-gray-400 transition-colors">
+                    Submit Application
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

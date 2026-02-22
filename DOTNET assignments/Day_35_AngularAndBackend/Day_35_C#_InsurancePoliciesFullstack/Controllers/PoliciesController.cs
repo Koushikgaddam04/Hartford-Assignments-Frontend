@@ -1,4 +1,5 @@
-﻿using Day_35_C__InsurancePoliciesFullstack.DTOs;
+﻿using AutoMapper;
+using Day_35_C__InsurancePoliciesFullstack.DTOs;
 using Day_35_C__InsurancePoliciesFullstack.Models;
 using Day_35_C__InsurancePoliciesFullstack.Repositories;
 using Microsoft.AspNetCore.Mvc;
@@ -10,31 +11,27 @@ namespace Day_35_C__InsurancePoliciesFullstack.Controllers
     public class PoliciesController : ControllerBase
     {
         private readonly IPolicyRepository _policyRepo;
+        private readonly IMapper _mapper;
 
-        public PoliciesController(IPolicyRepository policyRepo)
+        public PoliciesController(IPolicyRepository policyRepo, IMapper mapper)
         {
             _policyRepo = policyRepo;
+            _mapper = mapper;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Policy>>> GetPolicies()
+        public async Task<ActionResult<IEnumerable<PolicyDTO>>> GetPolicies()
         {
             // FIX: Changed _repository to _policyRepo
             var policies = await _policyRepo.GetAllPoliciesAsync();
-            return Ok(policies);
+            var policyDtos = _mapper.Map<IEnumerable<PolicyDTO>>(policies);
+            return Ok(policyDtos);
         }
 
         [HttpPost]
         public async Task<ActionResult<Policy>> CreatePolicy(PolicyCreateDTO policyDto)
         {
-            var policy = new Policy
-            {
-                PolicyNumber = policyDto.PolicyNumber,
-                Type = policyDto.Type,
-                Premium = policyDto.Premium,
-                StartDate = policyDto.StartDate,
-                CustomerId = policyDto.CustomerId
-            };
+            var policy = _mapper.Map<Policy>(policyDto);
 
             await _policyRepo.AddPolicyAsync(policy);
             return Ok(policy);

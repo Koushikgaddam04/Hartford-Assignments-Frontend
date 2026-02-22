@@ -24,9 +24,14 @@ namespace Day_35_C__InsurancePoliciesFullstack
             });
             builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
             builder.Services.AddScoped<IPolicyRepository, PolicyRepository>();
+            builder.Services.AddAutoMapper(cfg => cfg.AddProfile<Day_35_C__InsurancePoliciesFullstack.Profiles.MappingProfile>());
             builder.Services.AddDbContext<InsuranceDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-            builder.Services.AddControllers();
+            builder.Services.AddControllers()
+                .AddJsonOptions(options =>
+                {
+                    options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
+                });
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();

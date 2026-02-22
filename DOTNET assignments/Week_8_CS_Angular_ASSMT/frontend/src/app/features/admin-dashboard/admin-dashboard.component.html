@@ -1,0 +1,71 @@
+<div class="min-h-screen bg-gray-50 flex flex-col">
+    <nav class="bg-slate-800 text-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between h-16 items-center">
+            <div class="font-bold text-xl tracking-wider">Admin Portal</div>
+            <a routerLink="/" class="text-sm font-medium hover:text-slate-300 transition-colors">Back to Home</a>
+        </div>
+    </nav>
+
+    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full space-y-8">
+        <div class="flex items-center justify-between">
+            <h1 class="text-3xl font-bold text-gray-900">Admin Dashboard</h1>
+        </div>
+
+        <!-- Agent Assignment Section -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden border border-gray-200">
+            <div class="px-6 py-4 border-b border-gray-200 bg-gray-50">
+                <h3 class="text-lg leading-6 font-medium text-gray-900">Customer Agent Assignment</h3>
+                <p class="mt-1 text-sm text-gray-500">View all registered customers and firmly assign an Agent ID to
+                    handle their policies.</p>
+            </div>
+
+            <div *ngIf="message" class="mx-6 mt-4 p-3 rounded bg-blue-50 text-blue-700 border-l-4 border-blue-500">
+                {{ message }}
+            </div>
+
+            <div class="overflow-x-auto m-6 border rounded-lg">
+                <table class="min-w-full divide-y divide-gray-200">
+                    <thead class="bg-gray-50">
+                        <tr>
+                            <th scope="col"
+                                class="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">
+                                Customer ID</th>
+                            <th scope="col"
+                                class="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">
+                                Name</th>
+                            <th scope="col"
+                                class="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">
+                                Current Agent ID</th>
+                            <th scope="col"
+                                class="px-6 py-3 text-right text-xs font-bold text-gray-500 uppercase tracking-wider">
+                                Assign Agent</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200">
+                        <tr *ngFor="let c of customers" class="hover:bg-slate-50 transition-colors">
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 font-mono">{{ c.id }}</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{{ c.firstName }} {{
+                                c.lastName }}</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-bold"
+                                [ngClass]="c.agentId ? 'text-green-600' : 'text-red-500'">
+                                {{ c.agentId || 'Unassigned' }}
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                                <div class="flex justify-end gap-2 items-center">
+                                    <input type="number" #agentInput
+                                        class="px-2 py-1 border border-gray-300 rounded text-sm w-32"
+                                        placeholder="Enter Agent ID" />
+                                    <button (click)="assignAgent(c.id, agentInput.value)"
+                                        class="text-white bg-slate-800 hover:bg-slate-900 px-3 py-1 rounded text-sm shadow">Update</button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- The DataView will fetch policies automatically for Admin -->
+        <app-data-view></app-data-view>
+    </main>
+</div>

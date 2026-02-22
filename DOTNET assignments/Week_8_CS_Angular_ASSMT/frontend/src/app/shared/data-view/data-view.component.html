@@ -1,0 +1,77 @@
+<div class="bg-white shadow-md rounded-lg overflow-hidden border border-gray-200">
+    <div class="px-6 py-4 border-b border-gray-200 bg-gray-50 flex justify-between items-center">
+        <h3 class="text-lg leading-6 font-medium text-gray-900">Policies Data View</h3>
+        <button (click)="fetchPolicies()" class="text-sm text-blue-600 hover:text-blue-800 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block mr-1" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+            </svg>
+            Refresh
+        </button>
+    </div>
+
+    <div *ngIf="loading" class="p-8 text-center text-gray-500">
+        <div class="animate-spin inline-block w-6 h-6 border-4 border-current border-t-transparent text-blue-600 rounded-full"
+            role="status" aria-label="loading"></div>
+        <span class="ml-2 font-medium">Loading policies...</span>
+    </div>
+
+    <div *ngIf="!loading && policies.length === 0" class="p-8 text-center text-gray-500">
+        No policies found for your account.
+    </div>
+
+    <div class="overflow-x-auto" *ngIf="!loading && policies.length > 0">
+        <table class="min-w-full divide-y divide-gray-200">
+            <thead class="bg-gray-50">
+                <tr>
+                    <th scope="col"
+                        class="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">Policy No.
+                    </th>
+                    <th scope="col"
+                        class="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">Type</th>
+                    <th scope="col"
+                        class="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">Customer
+                    </th>
+                    <th scope="col"
+                        class="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">Premium ($)
+                    </th>
+                    <th scope="col"
+                        class="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">Status</th>
+                    <th scope="col" *ngIf="role === 'Agent' || role === 'Admin'"
+                        class="px-6 py-3 text-right text-xs font-bold text-gray-500 uppercase tracking-wider">Actions
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="bg-white divide-y divide-gray-200">
+                <tr *ngFor="let policy of policies" class="hover:bg-slate-50 transition-colors">
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{{ policy.policyNumber }}
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"><span
+                            class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">{{ policy.policyType
+                            }}</span></td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{{ policy.customerName || 'N/A' }}
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 font-mono">{{ policy.premiumAmount |
+                        number:'1.2-2' }}</td>
+                    <td class="px-6 py-4 whitespace-nowrap">
+                        <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full"
+                            [ngClass]="{'bg-yellow-100 text-yellow-800': policy.status === 'Pending', 'bg-green-100 text-green-800': policy.status === 'Accepted', 'bg-red-100 text-red-800': policy.status === 'Rejected'}">
+                            {{ policy.status }}
+                        </span>
+                    </td>
+                    <td *ngIf="role === 'Agent' || role === 'Admin'"
+                        class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                        <div class="flex justify-end gap-2" *ngIf="policy.status === 'Pending'">
+                            <button (click)="acceptPolicy(policy.id)"
+                                class="text-green-600 hover:text-green-900 bg-green-50 px-2 py-1 rounded">Accept</button>
+                            <button (click)="rejectPolicy(policy.id)"
+                                class="text-red-600 hover:text-red-900 bg-red-50 px-2 py-1 rounded">Reject</button>
+                        </div>
+                        <span class="text-gray-400 italic text-xs" *ngIf="policy.status !== 'Pending'">Actioned</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

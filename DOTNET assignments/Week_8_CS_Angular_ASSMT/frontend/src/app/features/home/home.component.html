@@ -1,0 +1,76 @@
+<div class="min-h-screen bg-gray-50 flex flex-col">
+    <!-- Navbar -->
+    <nav class="bg-blue-600 text-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 font-bold text-xl tracking-wider">
+                    InsurancePortal
+                </div>
+                <div class="flex items-center gap-4">
+                    <ng-container *ngIf="!isLoggedIn; else loggedInMenu">
+                        <a routerLink="/login"
+                            class="hover:bg-blue-700 px-3 py-2 rounded-md font-medium transition-colors">Login</a>
+                        <a routerLink="/register"
+                            class="bg-white text-blue-600 hover:bg-gray-100 px-4 py-2 rounded-md font-semibold transition-colors">Register</a>
+                    </ng-container>
+                    <ng-template #loggedInMenu>
+                        <span class="font-medium mr-4">Hello, {{ username }} <span class="text-blue-200 text-sm">({{
+                                role }})</span></span>
+                        <button (click)="logout()"
+                            class="hover:bg-blue-700 px-3 py-2 rounded-md border border-blue-400 font-medium transition-colors">Logout</button>
+                    </ng-template>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="flex-grow flex items-center justify-center p-6 relative overflow-hidden">
+        <!-- Decorative background blobs -->
+        <div
+            class="absolute top-0 left-1/4 w-96 h-96 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob">
+        </div>
+        <div
+            class="absolute top-0 right-1/4 w-96 h-96 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000">
+        </div>
+        <div
+            class="absolute -bottom-8 left-1/3 w-96 h-96 bg-pink-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-4000">
+        </div>
+
+        <div class="max-w-3xl text-center space-y-8 relative z-10">
+            <h1 class="text-5xl font-extrabold text-slate-800 tracking-tight leading-tight">
+                Manage your insurance with confidence
+            </h1>
+            <p class="text-xl text-slate-600 max-w-2xl mx-auto">
+                A unified platform for Admins, Agents, and Customers to track policies, process applications, and stay
+                protected.
+            </p>
+
+            <div *ngIf="isLoggedIn; else checkItOut" class="pt-8 flex flex-col items-center gap-4 hover-animation">
+                <a *ngIf="role === 'Admin'" routerLink="/admin"
+                    class="inline-flex items-center justify-center bg-slate-800 text-white px-8 py-4 rounded-xl text-lg font-bold hover:bg-slate-900 shadow-xl transform transition hover:-translate-y-1 hover:shadow-2xl">
+                    Open Admin Dashboard &rarr;
+                </a>
+                <a *ngIf="role === 'Agent'" routerLink="/agent"
+                    class="inline-flex items-center justify-center bg-teal-600 text-white px-8 py-4 rounded-xl text-lg font-bold hover:bg-teal-700 shadow-xl transform transition hover:-translate-y-1 hover:shadow-2xl">
+                    Open Agent Workspace &rarr;
+                </a>
+                <a *ngIf="role === 'Customer'" routerLink="/customer"
+                    class="inline-flex items-center justify-center bg-blue-600 text-white px-8 py-4 rounded-xl text-lg font-bold hover:bg-blue-700 shadow-xl transform transition hover:-translate-y-1 hover:shadow-2xl">
+                    Open Customer Portal &rarr;
+                </a>
+            </div>
+
+            <ng-template #checkItOut>
+                <div class="pt-8 flex gap-4 justify-center">
+                    <a routerLink="/register"
+                        class="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 shadow-lg transition-transform transform hover:-translate-y-1">Get
+                        Started</a>
+                    <a routerLink="/login"
+                        class="bg-white text-slate-700 border border-slate-300 px-8 py-3 rounded-lg font-bold hover:bg-slate-50 shadow transition-transform transform hover:-translate-y-1">Sign
+                        In</a>
+                </div>
+            </ng-template>
+        </div>
+    </main>
+</div>
