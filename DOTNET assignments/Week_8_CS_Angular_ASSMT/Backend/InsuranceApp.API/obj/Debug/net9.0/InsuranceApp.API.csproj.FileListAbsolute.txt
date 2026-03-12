@@ -162,3 +162,4 @@ C:\Users\Koushik Gaddam\OneDrive\Desktop\Hartford assignments\DOTNET assignments
 C:\Users\Koushik Gaddam\OneDrive\Desktop\Hartford assignments\DOTNET assignments\Week_8_CS_Angular_ASSMT\Backend\InsuranceApp.API\obj\Debug\net9.0\InsuranceApp.API.pdb
 C:\Users\Koushik Gaddam\OneDrive\Desktop\Hartford assignments\DOTNET assignments\Week_8_CS_Angular_ASSMT\Backend\InsuranceApp.API\obj\Debug\net9.0\InsuranceApp.API.genruntimeconfig.cache
 C:\Users\Koushik Gaddam\OneDrive\Desktop\Hartford assignments\DOTNET assignments\Week_8_CS_Angular_ASSMT\Backend\InsuranceApp.API\obj\Debug\net9.0\ref\InsuranceApp.API.dll
+C:\Users\Koushik Gaddam\OneDrive\Desktop\Hartford assignments\DOTNET assignments\Week_8_CS_Angular_ASSMT\Backend\InsuranceApp.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

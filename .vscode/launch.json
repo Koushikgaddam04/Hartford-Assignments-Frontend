@@ -1,0 +1,69 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "IdentityService",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "IdentityService: build",
+            "program": "${workspaceFolder}/DOTNET assignments/ExtraAssignment/IdentityService/bin/Debug/net9.0/IdentityService.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/DOTNET assignments/ExtraAssignment/IdentityService",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+                "uriFormat": "%s/swagger"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        },
+        {
+            "name": "HealthTrackerService",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "HealthTrackerService: build",
+            "program": "${workspaceFolder}/DOTNET assignments/ExtraAssignment/HealthTrackerService/bin/Debug/net9.0/HealthTrackerService.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/DOTNET assignments/ExtraAssignment/HealthTrackerService",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+                "uriFormat": "%s/swagger"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        },
+        {
+            "name": "GoalService",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "GoalService: build",
+            "program": "${workspaceFolder}/DOTNET assignments/ExtraAssignment/GoalService/bin/Debug/net9.0/GoalService.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/DOTNET assignments/ExtraAssignment/GoalService",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+                "uriFormat": "%s/swagger"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Launch All Microservices",
+            "configurations": [
+                "IdentityService",
+                "HealthTrackerService",
+                "GoalService"
+            ]
+        }
+    ]
+}

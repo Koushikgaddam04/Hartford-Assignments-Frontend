@@ -1,0 +1,76 @@
+<div class="min-h-screen bg-slate-50 p-8">
+  <div class="max-w-6xl mx-auto">
+    <div class="flex justify-between items-center mb-6">
+      <h1 class="text-2xl font-bold">Customer Dashboard</h1>
+      <button (click)="loadMyPolicies()"
+        class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 shadow-sm transition">
+        Refresh Data
+      </button>
+    </div>
+
+    <!-- Create Policy Section -->
+    <div class="bg-white rounded-2xl shadow-lg border p-6 mb-8">
+      <h2 class="text-xl font-semibold mb-4">Create New Policy</h2>
+      <div class="flex flex-wrap gap-4 items-end">
+        <div>
+          <label class="block text-sm font-medium text-slate-700 mb-1">Policy Number</label>
+          <input type="text" [(ngModel)]="newPolicy.policyNumber" class="border p-2 rounded-lg w-full"
+            placeholder="e.g. POL-123">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 mb-1">Type</label>
+          <select [(ngModel)]="newPolicy.type" class="border p-2 rounded-lg w-full">
+            <option value="Life">Life</option>
+            <option value="Health">Health</option>
+            <option value="Vehicle">Vehicle</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 mb-1">Premium</label>
+          <input type="number" [(ngModel)]="newPolicy.premium" class="border p-2 rounded-lg w-full"
+            placeholder="Amount">
+        </div>
+        <button (click)="onCreatePolicy()"
+          class="bg-emerald-600 text-white px-6 py-2 rounded-lg hover:bg-emerald-700 shadow-sm transition">
+          Create Policy
+        </button>
+      </div>
+    </div>
+
+    <!-- My Policies Section -->
+    <div class="bg-white rounded-2xl shadow-lg border overflow-hidden">
+      <h2 class="text-xl font-semibold p-6 border-b bg-slate-50">My Policies</h2>
+      <table class="w-full text-left">
+        <thead class="bg-slate-100 border-b">
+          <tr>
+            <th class="p-4">Policy Number</th>
+            <th class="p-4">Type</th>
+            <th class="p-4">Premium</th>
+            <th class="p-4">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (p of myPolicies; track p.id) {
+          <tr class="border-b">
+            <td class="p-4">{{p.policyNumber}}</td>
+            <td class="p-4">{{p.type}}</td>
+            <td class="p-4">₹{{p.premium}}</td>
+            <td class="p-4">
+              @if (p.status === 'Pending') {
+              <span class="text-yellow-600 font-medium">Pending</span>
+              } @else {
+              <span
+                [class]="p.status === 'Approved' ? 'text-green-600 font-medium' : 'text-red-600 font-medium'">{{p.status}}</span>
+              }
+            </td>
+          </tr>
+          } @empty {
+          <tr>
+            <td colspan="4" class="p-10 text-center text-slate-400">No policies found.</td>
+          </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

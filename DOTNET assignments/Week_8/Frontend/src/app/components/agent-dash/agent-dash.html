@@ -1,0 +1,56 @@
+<div class="min-h-screen bg-slate-50 p-8">
+  <div class="max-w-6xl mx-auto">
+    <div class="flex justify-between items-center mb-6">
+      <h1 class="text-2xl font-bold">Agent Dashboard</h1>
+      <button (click)="loadAssignedWork()"
+        class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 shadow-sm transition">
+        Refresh Data
+      </button>
+    </div>
+    <div class="bg-white rounded-2xl shadow-lg border overflow-hidden">
+      <table class="w-full text-left">
+        <thead class="bg-slate-100 border-b">
+          <tr>
+            <th class="p-4">Customer Name</th>
+            <th class="p-4">Policy Number</th>
+            <th class="p-4">Status</th>
+            <th class="p-4 text-center">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (p of assignedPolicies; track p.id) {
+          <tr class="border-b hover:bg-emerald-50 transition">
+            <td class="p-4 font-bold">{{p.customerName}}</td>
+            <td class="p-4">{{p.policyNumber}}</td>
+            <td class="p-4">
+              @if (p.status === 'Pending') {
+              <span class="bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-xs font-bold">Pending</span>
+              } @else if (p.status === 'Approved') {
+              <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-xs font-bold">Approved</span>
+              } @else {
+              <span class="bg-red-100 text-red-700 px-3 py-1 rounded-full text-xs font-bold">Rejected</span>
+              }
+            </td>
+            <td class="p-4 text-center">
+              @if (p.status === 'Pending') {
+              <div class="flex justify-center gap-2">
+                <button (click)="updateStatus(p.id, 'Approved')"
+                  class="bg-emerald-600 text-white px-3 py-1 rounded-lg">Approve</button>
+                <button (click)="updateStatus(p.id, 'Rejected')"
+                  class="bg-red-600 text-white px-3 py-1 rounded-lg">Reject</button>
+              </div>
+              } @else {
+              <span class="text-slate-400 italic text-sm">Processed</span>
+              }
+            </td>
+          </tr>
+          } @empty {
+          <tr>
+            <td colspan="4" class="p-10 text-center text-slate-400">No policies assigned to you.</td>
+          </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

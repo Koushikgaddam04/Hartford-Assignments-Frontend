@@ -1,0 +1,11 @@
+﻿  Determining projects to restore...
+  All projects are up-to-date for restore.
+C:\Users\Koushik Gaddam\OneDrive\Desktop\Hartford assignments\DOTNET assignments\ExtraAssignment\IdentityService\Program.cs(5,25): error CS0234: The type or namespace name 'Models' does not exist in the namespace 'Microsoft.OpenApi' (are you missing an assembly reference?) [C:\Users\Koushik Gaddam\OneDrive\Desktop\Hartford assignments\DOTNET assignments\ExtraAssignment\IdentityService\IdentityService.csproj]
+
+Build FAILED.
+
+C:\Users\Koushik Gaddam\OneDrive\Desktop\Hartford assignments\DOTNET assignments\ExtraAssignment\IdentityService\Program.cs(5,25): error CS0234: The type or namespace name 'Models' does not exist in the namespace 'Microsoft.OpenApi' (are you missing an assembly reference?) [C:\Users\Koushik Gaddam\OneDrive\Desktop\Hartford assignments\DOTNET assignments\ExtraAssignment\IdentityService\IdentityService.csproj]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.23

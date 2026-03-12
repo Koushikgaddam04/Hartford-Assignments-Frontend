@@ -1,0 +1,192 @@
+[
+  {
+    "ContainingType": "InsuranceApp.API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "InsuranceApp.Application.DTOs.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsuranceApp.API.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "InsuranceApp.Application.DTOs.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsuranceApp.API.Controllers.CustomerController",
+    "Method": "GetAll",
+    "RelativePath": "api/Customer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsuranceApp.API.Controllers.CustomerController",
+    "Method": "CreateProfile",
+    "RelativePath": "api/Customer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "InsuranceApp.Application.DTOs.CreateCustomerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsuranceApp.API.Controllers.CustomerController",
+    "Method": "AssignAgent",
+    "RelativePath": "api/Customer/{customerId}/assign-agent/{agentId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "agentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsuranceApp.API.Controllers.CustomerController",
+    "Method": "GetByAgent",
+    "RelativePath": "api/Customer/agent/{agentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsuranceApp.API.Controllers.CustomerController",
+    "Method": "GetProfile",
+    "RelativePath": "api/Customer/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsuranceApp.API.Controllers.PolicyController",
+    "Method": "GetAll",
+    "RelativePath": "api/Policy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsuranceApp.API.Controllers.PolicyController",
+    "Method": "CreatePolicy",
+    "RelativePath": "api/Policy",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "InsuranceApp.Application.DTOs.CreatePolicyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsuranceApp.API.Controllers.PolicyController",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/Policy/{policyId}/status",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "policyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "InsuranceApp.Application.DTOs.UpdatePolicyStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsuranceApp.API.Controllers.PolicyController",
+    "Method": "GetByAgent",
+    "RelativePath": "api/Policy/agent/{agentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsuranceApp.API.Controllers.PolicyController",
+    "Method": "GetByCustomer",
+    "RelativePath": "api/Policy/customer/{customerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

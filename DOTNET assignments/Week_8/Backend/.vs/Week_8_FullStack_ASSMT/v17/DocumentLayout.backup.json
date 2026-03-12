@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_8_FullStack_ASSMT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19E33A96-E1EF-427E-8A56-36C3E5979633}|Insurance.API\\Insurance.API.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\week_8_fullstack_assmt\\insurance.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19E33A96-E1EF-427E-8A56-36C3E5979633}|Insurance.API\\Insurance.API.csproj|solutionrelative:insurance.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19E33A96-E1EF-427E-8A56-36C3E5979633}|Insurance.API\\Insurance.API.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\week_8_fullstack_assmt\\insurance.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{19E33A96-E1EF-427E-8A56-36C3E5979633}|Insurance.API\\Insurance.API.csproj|solutionrelative:insurance.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2370B32C-089C-4582-B534-30C378DF48D2}|Insurance.Infrastructure\\Insurance.Infrastructure.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\week_8_fullstack_assmt\\insurance.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2370B32C-089C-4582-B534-30C378DF48D2}|Insurance.Infrastructure\\Insurance.Infrastructure.csproj|solutionrelative:insurance.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{936CD21E-0007-4D39-8F48-9992CAE23593}|Insurance.Application\\Insurance.Application.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\week_8_fullstack_assmt\\insurance.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{936CD21E-0007-4D39-8F48-9992CAE23593}|Insurance.Application\\Insurance.Application.csproj|solutionrelative:insurance.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{052F7645-47D9-410A-BA33-5F71A1BE8191}|Insurance.Domain\\Insurance.Domain.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\week_8_fullstack_assmt\\insurance.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{052F7645-47D9-410A-BA33-5F71A1BE8191}|Insurance.Domain\\Insurance.Domain.csproj|solutionrelative:insurance.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19E33A96-E1EF-427E-8A56-36C3E5979633}|Insurance.API\\Insurance.API.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\week_8_fullstack_assmt\\insurance.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19E33A96-E1EF-427E-8A56-36C3E5979633}|Insurance.API\\Insurance.API.csproj|solutionrelative:insurance.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{936CD21E-0007-4D39-8F48-9992CAE23593}|Insurance.Application\\Insurance.Application.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\week_8_fullstack_assmt\\insurance.application\\dtos\\createpolicyrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{936CD21E-0007-4D39-8F48-9992CAE23593}|Insurance.Application\\Insurance.Application.csproj|solutionrelative:insurance.application\\dtos\\createpolicyrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2370B32C-089C-4582-B534-30C378DF48D2}|Insurance.Infrastructure\\Insurance.Infrastructure.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\week_8_fullstack_assmt\\insurance.infrastructure\\insurance.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2370B32C-089C-4582-B534-30C378DF48D2}|Insurance.Infrastructure\\Insurance.Infrastructure.csproj|solutionrelative:insurance.infrastructure\\insurance.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2370B32C-089C-4582-B534-30C378DF48D2}|Insurance.Infrastructure\\Insurance.Infrastructure.csproj|c:\\users\\koushik gaddam\\onedrive\\desktop\\hartford assignments\\dotnet assignments\\week_8_fullstack_assmt\\insurance.infrastructure\\migrations\\20260224042313_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2370B32C-089C-4582-B534-30C378DF48D2}|Insurance.Infrastructure\\Insurance.Infrastructure.csproj|solutionrelative:insurance.infrastructure\\migrations\\20260224042313_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 283,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20260224042313_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_8_FullStack_ASSMT\\Insurance.Infrastructure\\Migrations\\20260224042313_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Insurance.Infrastructure\\Migrations\\20260224042313_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_8_FullStack_ASSMT\\Insurance.Infrastructure\\Migrations\\20260224042313_InitialCreate.cs",
+              "RelativeToolTip": "Insurance.Infrastructure\\Migrations\\20260224042313_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T04:23:13.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_8_FullStack_ASSMT\\Insurance.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Insurance.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_8_FullStack_ASSMT\\Insurance.API\\appsettings.json",
+              "RelativeToolTip": "Insurance.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-24T04:20:55.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_8_FullStack_ASSMT\\Insurance.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Insurance.Application\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_8_FullStack_ASSMT\\Insurance.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Insurance.Application\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T04:12:57.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_8_FullStack_ASSMT\\Insurance.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Insurance.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_8_FullStack_ASSMT\\Insurance.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Insurance.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T04:09:44.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Insurance.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_8_FullStack_ASSMT\\Insurance.Infrastructure\\Insurance.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Insurance.Infrastructure\\Insurance.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_8_FullStack_ASSMT\\Insurance.Infrastructure\\Insurance.Infrastructure.csproj",
+              "RelativeToolTip": "Insurance.Infrastructure\\Insurance.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-24T03:56:05.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_8_FullStack_ASSMT\\Insurance.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Insurance.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_8_FullStack_ASSMT\\Insurance.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Insurance.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwDsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T03:57:29.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_8_FullStack_ASSMT\\Insurance.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Insurance.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_8_FullStack_ASSMT\\Insurance.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Insurance.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T03:56:26.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_8_FullStack_ASSMT\\Insurance.API\\Program.cs",
+              "RelativeDocumentMoniker": "Insurance.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_8_FullStack_ASSMT\\Insurance.API\\Program.cs",
+              "RelativeToolTip": "Insurance.API\\Program.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAswF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T17:55:18.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreatePolicyRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_8_FullStack_ASSMT\\Insurance.Application\\DTOs\\CreatePolicyRequest.cs",
+              "RelativeDocumentMoniker": "Insurance.Application\\DTOs\\CreatePolicyRequest.cs",
+              "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_8_FullStack_ASSMT\\Insurance.Application\\DTOs\\CreatePolicyRequest.cs",
+              "RelativeToolTip": "Insurance.Application\\DTOs\\CreatePolicyRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T18:36:11.446Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

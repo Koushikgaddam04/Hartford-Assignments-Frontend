@@ -1,0 +1,51 @@
+<div class="min-h-screen bg-slate-50 p-8">
+  <div class="max-w-6xl mx-auto">
+    <div class="flex justify-between items-center mb-6">
+      <h1 class="text-2xl font-bold">Admin Dashboard</h1>
+      <button (click)="loadData()" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 shadow-sm transition">
+        Refresh Data
+      </button>
+    </div>
+    @if (currentTab === 'assignments') {
+      <div class="bg-white rounded-2xl shadow-lg border overflow-hidden">
+        <table class="w-full text-left">
+          <thead class="bg-slate-100 border-b">
+            <tr>
+              <th class="p-4">Customer Name</th>
+              <th class="p-4">Email</th>
+              <th class="p-4">Assign Agent</th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (customer of pendingCustomers; track customer.id) {
+              <tr class="border-b hover:bg-slate-50">
+                <td class="p-4 font-semibold">{{customer.fullName}}</td>
+                <td class="p-4 text-slate-500">{{customer.email}}</td>
+                <td class="p-4">
+                  <div class="flex gap-2">
+                    <select #agentSelect class="border p-2 rounded-lg">
+                      <option value="">Select Agent</option>
+                      @for (agent of agents; track agent.id) {
+                        <option [value]="agent.id">{{agent.fullName}}</option>
+                      }
+                    </select>
+                    <button (click)="onAssign(customer.id, agentSelect.value)" class="bg-blue-700 text-white px-4 py-2 rounded-lg">Assign</button>
+                  </div>
+                </td>
+              </tr>
+            } @empty {
+              <tr>
+                <td colspan="3" class="p-10 text-center text-slate-400">No pending assignments.</td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+    } @else {
+      <div class="bg-white rounded-2xl shadow-lg border overflow-hidden">
+        @for (policy of allPolicies; track policy.id) {
+          }
+      </div>
+    }
+  </div>
+</div>

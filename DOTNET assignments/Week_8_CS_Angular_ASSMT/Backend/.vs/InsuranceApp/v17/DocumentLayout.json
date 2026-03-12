@@ -14,8 +14,12 @@
       "DocumentGroups": [
         {
           "DockedHeight": 283,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
@@ -32,7 +36,7 @@
               "RelativeDocumentMoniker": "InsuranceApp.API\\Program.cs",
               "ToolTip": "C:\\Users\\Koushik Gaddam\\OneDrive\\Desktop\\Hartford assignments\\DOTNET assignments\\Week_8_CS_Angular_ASSMT\\Backend\\InsuranceApp.API\\Program.cs",
               "RelativeToolTip": "InsuranceApp.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T09:35:30.841Z",
               "EditorCaption": ""
